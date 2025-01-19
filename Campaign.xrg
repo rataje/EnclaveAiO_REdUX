@@ -161,7 +161,7 @@
 		*defaulticonsurface GUI_GenericLocation
 		*video_win GUI_Scoreboard_1
 		*video_lose GUI_MFL_01
-		*equipafterchallenge 3
+		*equipafterchallenge 2 //allows char selection after intro
 		*defaultcharacter paladin
 		*briefingtexture GUI_BriefingL_01
 		*maxgoldaward 13000,9320
@@ -195,18 +195,20 @@
 		*itemslot0 0x000,GUI_ICON_SWORDS32
 		*itemslot1 0x101,GUI_ICON_SHIELDS32
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x106,GUI_ICON_POTIONS32
 		*itemslot5 0x200,GUI_ICON_ARMOURS32
 	
 		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
 	}
 	*archer
 	{
 		*itemslot0 0x020,GUI_ICON_BOWS32
-		*itemslot1 0x8120,GUI_ICON_ARROWS32:§LMENU_MISCARROWS
+		*itemslot1 0x8120,GUI_ICON_ARROWS32:Â§LMENU_MISCARROWS
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x009,GUI_ICON_DAGGERS32
 		*itemslot5 0x106,GUI_ICON_POTIONS32
 		*itemslot6 0x200,GUI_ICON_ARMOURS32
@@ -234,7 +236,7 @@
 		*itemslot0 0x000,GUI_ICON_AXES32
 		*itemslot1 0x101,GUI_ICON_SHIELDS32
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x106,GUI_ICON_POTIONS32
 		*itemslot5 0x200,GUI_ICON_ARMOURS32
 	
@@ -247,13 +249,15 @@
 		*itemslot0 0x000,GUI_ICON_HAMMERS32
 		*itemslot1 0x101,GUI_ICON_SHIELDS32
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x003,GUI_ICON_BOMBS32
 		*itemslot5 0x004,GUI_ICON_FIREBOTTLES32
 		*itemslot6 0x106,GUI_ICON_POTIONS32
 		*itemslot7 0x200,GUI_ICON_ARMOURS32
 	
 		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
 	}
 	*wizard
 	{
@@ -274,9 +278,9 @@
 	*assassin
 	{
 		*itemslot0 0x020,GUI_ICON_BOWS32
-		*itemslot1 0x8120,GUI_ICON_ARROWS32:§LMENU_MISCARROWS
+		*itemslot1 0x8120,GUI_ICON_ARROWS32:Â§LMENU_MISCARROWS
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x009,GUI_ICON_DAGGERS32
 		*itemslot5 0x106,GUI_ICON_POTIONS32
 		*itemslot6 0x200,GUI_ICON_ARMOURS32
@@ -296,11 +300,13 @@
 		*itemslot0 0x000,GUI_ICON_HAMMERS32
 		*itemslot1 0x101,GUI_ICON_SHIELDS32
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x106,GUI_ICON_POTIONS32
 		*itemslot5 0x200,GUI_ICON_ARMOURS32
 	
 		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
 	}	
 	*sorceress
 	{
@@ -315,7 +321,7 @@
 		*itemslot0 0x000,GUI_ICON_AXES32
 		*itemslot1 0x101,GUI_ICON_SHIELDS32
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x106,GUI_ICON_POTIONS32
 		*itemslot5 0x200,GUI_ICON_ARMOURS32
 	
@@ -328,13 +334,15 @@
 		*itemslot0 0x000,GUI_ICON_SWORDS32
 		*itemslot1 0x101,GUI_ICON_SHIELDS32
 		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
 		*itemslot4 0x003,GUI_ICON_BOMBS32
 		*itemslot5 0x004,GUI_ICON_FIREBOTTLES32
 		*itemslot6 0x106,GUI_ICON_POTIONS32
 		*itemslot7 0x200,GUI_ICON_ARMOURS32
 	
 		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
 	}
 	*lich
 	{
@@ -352,6 +360,142 @@
 	{
 		*itemslot0 0x106,GUI_ICON_POTIONS32
 	}	
+	// new characters
+	*Ancestor
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
+		*itemslot4 0x009,GUI_ICON_DAGGERS32
+		*itemslot5 0x106,GUI_ICON_POTIONS32
+
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
+	}
+	*Marcus
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
+		*itemslot4 0x106,GUI_ICON_POTIONS32
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+	}
+	*Lorus
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
+		*itemslot4 0x106,GUI_ICON_POTIONS32
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+	}
+	*Jasindra
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x020,GUI_ICON_BOWS32
+		*itemslot3 0x8120,GUI_ICON_ARROWS32:Â§LMENU_MISCARROWS
+		*itemslot4 0x009,GUI_ICON_DAGGERS32
+		*itemslot5 0x011,GUI_ICON_STAFFS32
+		*itemslot6 0x106,GUI_ICON_POTIONS32
+
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
+		
+		*subslot3 0x120,GUI_ICON_ARROW_BURST
+		*subslot4 0x121,GUI_ICON_ARROW_FIRE
+		*subslot5 0x122,GUI_ICON_ARROW_GRENADE
+		*subslot6 0x123,GUI_ICON_ARROW_SNIPER
+		*subslot7 0x124,GUI_ICON_ARROW_MAGIC
+	}
+	*Ayndirel
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x020,GUI_ICON_BOWS32
+		*itemslot3 0x8120,GUI_ICON_ARROWS32:Â§LMENU_MISCARROWS
+		*itemslot4 0x009,GUI_ICON_DAGGERS32
+		*itemslot5 0x011,GUI_ICON_STAFFS32
+		*itemslot6 0x106,GUI_ICON_POTIONS32
+
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
+		
+		*subslot3 0x120,GUI_ICON_ARROW_BURST
+		*subslot4 0x121,GUI_ICON_ARROW_FIRE
+		*subslot5 0x122,GUI_ICON_ARROW_GRENADE
+		*subslot6 0x123,GUI_ICON_ARROW_SNIPER
+		*subslot7 0x124,GUI_ICON_ARROW_MAGIC
+	}
+	*Assembly
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x010,GUI_ICON_STAFFS32
+		*itemslot2 0x011,GUI_ICON_STAFFS32
+		*itemslot3 0x009,GUI_ICON_DAGGERS32
+		*itemslot4 0x106,GUI_ICON_POTIONS32
+	}
+	*zale
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x010,GUI_ICON_STAFFS32
+		*itemslot2 0x011,GUI_ICON_STAFFS32
+		*itemslot3 0x009,GUI_ICON_DAGGERS32
+		*itemslot4 0x106,GUI_ICON_POTIONS32
+	}
+	*mordessa_good
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
+		*itemslot4 0x009,GUI_ICON_DAGGERS32
+		*itemslot5 0x011,GUI_ICON_STAFFS32
+		*itemslot6 0x106,GUI_ICON_POTIONS32
+		
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
+	}
+	*mordessa
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x009,GUI_ICON_DAGGERS32
+		*itemslot3 0x011,GUI_ICON_STAFFS32
+		*itemslot4 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot5 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
+		*itemslot6 0x106,GUI_ICON_POTIONS32
+		
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
+	}
+	*skeleton
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x020,GUI_ICON_BOWS32
+		*itemslot3 0x8120,GUI_ICON_ARROWS32:Â§LMENU_MISCARROWS
+		*itemslot4 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot5 0x8110,GUI_ICON_ARROWS32:Â§LMENU_MISCBOLTS
+		*itemslot6 0x106,GUI_ICON_POTIONS32
+		*itemslot7 0x200,GUI_ICON_ARMOURS32
+	
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+	}
+	*scaara
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x106,GUI_ICON_POTIONS32
+	
+	}
 }
 
 *challenges
@@ -548,6 +692,12 @@
 		*cutscene_fadeoutduration 2
 		*cutscene_cameratarget Cam01
 	}
+	*l_m0
+	{
+		*gamemenu GameMenu_Campaign
+		*picmips 0,0,0,0,0,0,0,0
+		*noequip 0
+	}
 	*l_m1
 	{
 		*location Iellon
@@ -558,7 +708,7 @@
 		*cutscene_select l_sb1
 		*noequip 1
 
-		*character paladin
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Iellon_Dungeon
 			*award challenge:l_m2,item:paladin:weapon_sword_lightshort,item:paladin:item_shield_targa,gold:75
@@ -573,7 +723,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_cs01
 
-		*character paladin+archer+boarrider+engineer
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Iellon_Outpost_L
 			*award challenge:l_m3,gold:75,character:archer,item:paladin:weapon_crossbow_light
@@ -587,7 +737,7 @@
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Celadia_Village_L
 			*award challenge:l_m4,gold:150
@@ -602,7 +752,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_sb2
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Deserted_Temple
 			*award challenge:l_m5,character:druid,gold:200
@@ -617,7 +767,7 @@
 		*music_battle dark_02_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Divided_City
 			*award challenge:l_m6,character:boarrider,gold:250
@@ -631,7 +781,7 @@
 		*music_battle dark_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Outland_Wastes
 			*award challenge:l_m7,character:engineer,gold:300,item:paladin:weapon_sword_frost2,item:boarrider:weapon_sword_frost2,item:engineer:weapon_sword_frost2
@@ -645,7 +795,7 @@
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Ark_Amar
 			*award challenge:l_m8,gold:350
@@ -661,7 +811,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_sb3
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Ancestors
 			*award challenge:l_m9,gold:400
@@ -675,7 +825,7 @@
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Sanctuary
 			*award challenge:l_m10,character:wizard,gold:450
@@ -689,7 +839,7 @@
 		*music_battle dark_04_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Underworld_I
 			*award challenge:l_m11,gold:500
@@ -704,7 +854,7 @@
 		*music_battle dark_04_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Underworld_II
 			*award challenge:l_m12,gold:550
@@ -719,7 +869,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_sb4,l_cs02
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Kam-Zara
 			*award challenge:l_m13,gold:600
@@ -734,7 +884,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*backplane 12000
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Ark_Moor_L
 			*award challenge:l_m14,gold:650,item:paladin:weapon_sword_mordessa
@@ -750,11 +900,17 @@
 		*backplane 12000
 		*cutscene_win l_sb5,l_endcredits
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Vatar
-			*award special:unlockdarkcampaign,special:quittomenu,character:golem
+			*award special:unlockdarkcampaign,character:golem
 		}
+	}
+	*d_m0
+	{
+		*gamemenu GameMenu_Campaign
+		*picmips 0,0,0,0,0,0,0,0
+		*noequip 0
 	}
 	*d_m1
 	{
@@ -767,7 +923,7 @@
 		*cutscene_win d_cs2
 		*noequip 1
 
-		*character assassin
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Zuranas_Mansion
 			*award challenge:d_m2,gold:100,item:assassin:weapon_crossbow_light,item:assassin:weapon_bow_short,item:assassin:weapon_dagger_short
@@ -782,7 +938,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win d_cs3
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Celadia_Village_D
 			*award challenge:d_m3,character:berserker,gold:200
@@ -798,7 +954,7 @@
 		*backplane 12000
 		*cutscene_win d_cs4,d_sb2
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Ark_Moor_D
 			*award challenge:d_m4,character:sorceress,gold:200
@@ -812,7 +968,7 @@
 		*music_battle dark_02_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Mansion_of_Dreams_I
 			*award challenge:d_m5,character:wolfrider,gold:250
@@ -827,7 +983,7 @@
 		*music_battle dark_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map The_Guardian
 			*award challenge:d_m6,gold:300
@@ -842,7 +998,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win d_cs5
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Mansion_of_Dreams_II
 			*award challenge:d_m7,character:bombardier,gold:350
@@ -857,7 +1013,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*backplane 15000
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Wilderness_I
 			*award challenge:d_m8,gold:400
@@ -873,7 +1029,7 @@
 		*backplane 8000
 		*cutscene_win d_sb3
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Wilderness_II
 			*award challenge:d_m9,gold:450
@@ -888,7 +1044,7 @@
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Iellon_Outpost_D
 			*award challenge:d_m10,character:lich,gold:500
@@ -902,7 +1058,7 @@
 		*music_battle light_02_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map The_Great_Wall
 			*award challenge:d_m11,gold:550
@@ -918,7 +1074,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win d_cs7,d_sb4
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Mines_Of_Ungard
 			*award challenge:d_m12,gold:600
@@ -933,7 +1089,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win d_cs8
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Ur-Annon_Island
 			*award challenge:d_m13,gold:650,item:bombardier:weapon_sword_mordessa
@@ -948,10 +1104,10 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win d_sb5,d_endcredits
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Celenheim
-			*award character:stonegnome,special:quittomenu
+			*award character:stonegnome
 		}
 	}
 	*d_c1_1
@@ -962,7 +1118,7 @@
 		*music_battle light_02_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map tolvfors
 			*award challenge:d_c1_2,gold:100
@@ -977,7 +1133,7 @@
 		*music_atmosphere light_02_a
 		*music_battle light_02_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map tolvfors
 			*award challenge:d_c1_3,gold:200
@@ -992,7 +1148,7 @@
 		*music_atmosphere light_02_a
 		*music_battle light_02_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map tolvfors
 			*award gold:300
@@ -1023,7 +1179,7 @@
 		*music_atmosphere dark_03_a
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map lexe
 			*award challenge:d_c3_2,gold:300
@@ -1038,7 +1194,7 @@
 		*music_atmosphere dark_03_a
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map lexe
 			*award challenge:d_c3_3,gold:500
@@ -1053,7 +1209,7 @@
 		*music_atmosphere dark_03_a
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome
+		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map lexe
 			*award gold:800
@@ -1068,7 +1224,7 @@
 		*music_atmosphere light_01_a
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map forbiddenatgard
 			*award challenge:l_c1_2,gold:100
@@ -1083,7 +1239,7 @@
 		*music_atmosphere light_01_a
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map forbiddenatgard
 			*award challenge:l_c1_3,gold:200
@@ -1098,7 +1254,7 @@
 		*music_atmosphere light_01_a
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map forbiddenatgard
 			*award gold:300
@@ -1129,7 +1285,7 @@
 		*music_atmosphere dark_03_a
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map hagastrom
 			*award challenge:l_c3_2,gold:300
@@ -1144,7 +1300,7 @@
 		*music_atmosphere dark_03_a
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map hagastrom
 			*award challenge:l_c3_3,gold:500
@@ -1159,7 +1315,7 @@
 		*music_atmosphere dark_03_a
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map hagastrom
 			*award gold:800
@@ -1173,6 +1329,7 @@
 {
 	*campaign Light
 	{
+		*l_m0 //shows campaign map, no icons
 		*l_m1
 	}	
 	*characters
@@ -1618,7 +1775,650 @@
 				*item_potion_health_4 l_m10
 				*item_potion_health_5 l_m12
 			}
-		}					    
+		}	
+		// new character zale - available items
+		*Marcus
+		{
+			*available 1
+			*items
+			{
+				*weapon_sword_lightshort
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire				
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+			}
+		}
+		*Lorus
+		{
+			*available 1
+			*items
+			{
+				*weapon_sword_sabre
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire				
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+			}
+		}
+		*zale
+		{
+			*available 1
+			*items
+			{
+				*weapon_staff_earthspirit1
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{
+				*weapon_sword_ancient
+				*weapon_sword_frost2
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire	
+				*weapon_staff_cold
+				*weapon_staff_cold2
+				*weapon_staff_poison
+				*weapon_staff_poison2
+				*weapon_staff_lightning
+				*weapon_staff_lightning2
+				*weapon_staff_darkness
+				*weapon_staff_darkness2
+				*weapon_staff_mind
+				*weapon_staff_mind2
+				*weapon_staff_fire
+				*weapon_staff_fire2
+				// new staff of the earth spirit entries
+				*weapon_staff_earthspirit1
+				*weapon_staff_earthspirit2
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+			}
+		}
+		*Jasindra
+		{
+			*available 1
+			*items
+			{
+				*weapon_bow_burst
+				*item_arrow_burst_240
+				*item_arrow_fire_120
+				*item_arrow_lafire_120
+				*item_arrow_grenade_60
+				*item_arrow_hegrenade_60
+				*item_arrow_sniper_60
+				*item_arrow_magic_60
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{	
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire				
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked 
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_bow_short
+				*weapon_bow_long
+				*weapon_bow_burst
+				*weapon_bow_sniper
+				*weapon_bow_magic
+				*weapon_staff_cold2
+				*weapon_staff_poison2
+				*weapon_staff_lightning2
+				*weapon_staff_darkness2
+				*weapon_staff_mind2
+				*weapon_staff_fire2
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*item_potion_vine
+				*item_arrow_burst_20
+				*item_arrow_burst_40
+				*item_arrow_burst_60
+				*item_arrow_burst_120
+				*item_arrow_burst_240
+				*item_arrow_fire_10
+				*item_arrow_fire_20
+				*item_arrow_fire_30
+				*item_arrow_fire_60
+				*item_arrow_fire_120
+				*item_arrow_lafire_10
+				*item_arrow_lafire_20
+				*item_arrow_lafire_30
+				*item_arrow_lafire_60
+				*item_arrow_lafire_120
+				*item_arrow_grenade_5
+				*item_arrow_grenade_10
+				*item_arrow_grenade_15
+				*item_arrow_grenade_30
+				*item_arrow_grenade_60
+				*item_arrow_hegrenade_5
+				*item_arrow_hegrenade_10
+				*item_arrow_hegrenade_15
+				*item_arrow_hegrenade_30
+				*item_arrow_hegrenade_60
+				*item_arrow_sniper_5
+				*item_arrow_sniper_10
+				*item_arrow_sniper_15
+				*item_arrow_sniper_30
+				*item_arrow_sniper_60
+				*item_arrow_magic_5
+				*item_arrow_magic_10
+				*item_arrow_magic_15
+				*item_arrow_magic_30
+				*item_arrow_magic_60
+			}
+		}
+		*Ayndirel
+		{
+			*available 1
+			*items
+			{
+				*weapon_staff_queen
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{	
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire				
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked 
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_bow_short
+				*weapon_bow_long
+				*weapon_bow_burst
+				*weapon_bow_sniper
+				*weapon_bow_magic
+				*weapon_staff_queen
+				*weapon_staff_cold2
+				*weapon_staff_poison2
+				*weapon_staff_lightning2
+				*weapon_staff_darkness2
+				*weapon_staff_mind2
+				*weapon_staff_fire2
+				*weapon_staff_queen
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*item_potion_vine
+				*item_arrow_burst_20
+				*item_arrow_burst_40
+				*item_arrow_burst_60
+				*item_arrow_burst_120
+				*item_arrow_burst_240
+				*item_arrow_fire_10
+				*item_arrow_fire_20
+				*item_arrow_fire_30
+				*item_arrow_fire_60
+				*item_arrow_fire_120
+				*item_arrow_lafire_10
+				*item_arrow_lafire_20
+				*item_arrow_lafire_30
+				*item_arrow_lafire_60
+				*item_arrow_lafire_120
+				*item_arrow_grenade_5
+				*item_arrow_grenade_10
+				*item_arrow_grenade_15
+				*item_arrow_grenade_30
+				*item_arrow_grenade_60
+				*item_arrow_hegrenade_5
+				*item_arrow_hegrenade_10
+				*item_arrow_hegrenade_15
+				*item_arrow_hegrenade_30
+				*item_arrow_hegrenade_60
+				*item_arrow_sniper_5
+				*item_arrow_sniper_10
+				*item_arrow_sniper_15
+				*item_arrow_sniper_30
+				*item_arrow_sniper_60
+				*item_arrow_magic_5
+				*item_arrow_magic_10
+				*item_arrow_magic_15
+				*item_arrow_magic_30
+				*item_arrow_magic_60
+			}
+		}		
+		*assembly
+		{
+			*available 1
+			*items
+			{
+				*weapon_staff_assembly
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{
+				*weapon_sword_assembly
+				*weapon_staff_assembly
+				*weapon_staff_cold
+				*weapon_staff_cold2
+				*weapon_staff_poison
+				*weapon_staff_poison2
+				*weapon_staff_lightning
+				*weapon_staff_lightning2
+				*weapon_staff_darkness
+				*weapon_staff_darkness2
+				*weapon_staff_mind
+				*weapon_staff_mind2
+				*weapon_staff_fire
+				*weapon_staff_fire2
+				// new staff of the earth spirit entries
+				*weapon_staff_earthspirit1
+				*weapon_staff_earthspirit2
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+			}
+		}	
+		*Ancestor
+		{
+			*available 1
+			*items
+			{
+				*weapon_sword_ancient
+				*item_shield_ancient
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{	
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire				
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked 
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*weapon_staff_cold2
+				*weapon_staff_poison2
+				*weapon_staff_lightning2
+				*weapon_staff_darkness2
+				*weapon_staff_mind2
+				*weapon_staff_fire2
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*item_potion_vine
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
+			}
+		}	
+		*mordessa_good
+		{
+			*available 1
+			*items
+			{
+				*weapon_sword_mordessa
+				*item_shield_thorn
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*weapon_staff_cold2
+				*weapon_staff_poison2
+				*weapon_staff_lightning2
+				*weapon_staff_darkness2
+				*weapon_staff_mind2
+				*weapon_staff_fire2
+				*weapon_staff_mordessa
+				*item_shield_no
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+			}
+		}				    
 	}
 }
 
@@ -1626,6 +2426,7 @@
 {
 	*campaign Dark
 	{
+		*d_m0 //shows campaign map, no icons
 		*d_m1
 	}
 	*characters
@@ -2071,60 +2872,14 @@
 				*item_potion_health_4 d_m10
 				*item_potion_health_5 d_m12
 			}
-		}				
-	}
-}
-
-*newgame_gameplaytesting
-{
-	*gold 12800
-	*campaign GameplayTesting
-	{
-		*l_m1
-		*l_m2
-		*l_m3
-		*l_m4
-		*l_m5
-		*l_m6
-		*l_m7
-		*l_m8
-		*l_m9
-		*l_m10
-		*l_m11
-		*l_m12
-		*l_m13
-		*l_m14
-		*d_m1
-		*d_m2
-		*d_m3
-		*d_m4
-		*d_m5
-		*d_m6
-		*d_m7
-		*d_m8
-		*d_m9
-		*d_m10
-		*d_m11
-		*d_m12
-		*d_m13
-		*d_c1_1
-		*d_c2
-		*d_c3_1
-		*l_c1_1
-		*l_c2
-		*l_c3_1
-	}
-	*characters
-	{
-		*paladin
+		}
+		// new character mordessa - available items
+		*mordessa
 		{
 			*available 1
 			*items
 			{
-				*weapon_sword_long
-				*weapon_crossbow_light
-				*item_bolt_normal_40
-				*item_shield_kite
+				*weapon_sword_mordessa
 				*item_staff_shield
 				//*armour_level0
 			}
@@ -2140,697 +2895,11 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire
-				*weapon_axe_bearded
-				*weapon_axe_kama
-				*weapon_axe_short
-				*weapon_axe_pike
-				*weapon_axe_brute
-				*weapon_axe_battle
-				*weapon_axe_war
-				*weapon_axe_great
-				*weapon_axe_shatter
-				*weapon_axe_magic
-				*weapon_hammer_spiked
-				*weapon_hammer_light
-				*weapon_hammer_morningstar
-				*weapon_hammer_heavyclub
-				*weapon_hammer_mace
-				*weapon_hammer_maul
-				*weapon_hammer_battle
-				*weapon_hammer_chaos
-				*weapon_hammer_heavymorningstar
-				*weapon_hammer_magic
-				*weapon_crossbow_light
-				*weapon_crossbow_dwarven
-				*weapon_crossbow_heavy
-				*weapon_crossbow_repeating
-				*weapon_crossbow_magic
-				*item_shield_targa
-				*item_shield_buckler
-				*item_shield_spiked
-				*item_shield_brute
-				*item_shield_round
-				*item_shield_kite
-				*item_shield_blade
-				*item_shield_chaos
-				*item_shield_thorn
-				*item_shield_ancient
-				*item_shield_magic
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*archer
-		{
-			*available 1
-			*items
-			{
-				*weapon_bow_long
-				*weapon_crossbow_dwarven
-				*weapon_dagger_short
-				*item_bolt_normal_40
-				*item_arrow_burst_40
-				*item_arrow_fire_10
-				*item_arrow_grenade_5
-				*item_arrow_sniper_10
-				*item_staff_shield
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_dagger_short
-				*weapon_dagger_long
-				*weapon_dagger_curved
-				*weapon_dagger_sacrifice
-				*weapon_dagger_poison
-				*weapon_bow_short
-				*weapon_bow_long
-				*weapon_bow_burst
-				*weapon_bow_sniper
-				*weapon_bow_magic
-				*weapon_crossbow_light
-				*weapon_crossbow_dwarven
-				*weapon_crossbow_heavy
-				*weapon_crossbow_repeating
-				*weapon_crossbow_magic
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
-				*item_bolt_poison_20
-				*item_bolt_poison_40
-				*item_bolt_poison_60
-				*item_bolt_poison_120
-				*item_bolt_poison_240
-				*item_bolt_magic_20
-				*item_bolt_magic_40
-				*item_bolt_magic_60
-				*item_bolt_magic_120
-				*item_bolt_magic_240
-				*item_arrow_burst_20
-				*item_arrow_burst_40
-				*item_arrow_burst_60
-				*item_arrow_burst_120
-				*item_arrow_burst_240
-				*item_arrow_fire_10
-				*item_arrow_fire_20
-				*item_arrow_fire_30
-				*item_arrow_fire_60
-				*item_arrow_fire_120
-				*item_arrow_lafire_10
-				*item_arrow_lafire_20
-				*item_arrow_lafire_30
-				*item_arrow_lafire_60
-				*item_arrow_lafire_120
-				*item_arrow_grenade_5
-				*item_arrow_grenade_10
-				*item_arrow_grenade_15
-				*item_arrow_grenade_30
-				*item_arrow_grenade_60
-				*item_arrow_hegrenade_5
-				*item_arrow_hegrenade_10
-				*item_arrow_hegrenade_15
-				*item_arrow_hegrenade_30
-				*item_arrow_hegrenade_60
-				*item_arrow_sniper_5
-				*item_arrow_sniper_10
-				*item_arrow_sniper_15
-				*item_arrow_sniper_30
-				*item_arrow_sniper_60
-				*item_arrow_magic_5
-				*item_arrow_magic_10
-				*item_arrow_magic_15
-				*item_arrow_magic_30
-				*item_arrow_magic_60
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*druid
-		{
-			*available 1
-			*items
-			{
-				*item_staff_shield
-				*weapon_staff_spirit
-				*weapon_staff_cold2
-				*weapon_dagger_short
-				*item_bolt_normal_40
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_staff_spirit
-				*weapon_staff_spirit2
-				*weapon_staff_cold
-				*weapon_staff_cold2
-				*weapon_staff_poison
-				*weapon_staff_poison2
-				*weapon_staff_lightning
-				*weapon_staff_lightning2
-				*weapon_staff_darkness
-				*weapon_staff_darkness2
-				*weapon_staff_mind
-				*weapon_staff_mind2
-				*weapon_staff_fire			
-				*weapon_staff_fire2
-				*weapon_dagger_short
-				*weapon_dagger_long
-				*weapon_dagger_curved
-				*weapon_dagger_sacrifice
-				*weapon_dagger_poison
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*boarrider
-		{
-			*available 1
-			*items
-			{
-				*weapon_axe_short
-				*weapon_crossbow_light
-				*item_bolt_normal_40
-				*item_shield_targa
-				*item_staff_shield
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_axe_bearded
-				*weapon_axe_kama
-				*weapon_axe_short
-				*weapon_axe_pike
-				*weapon_axe_brute
-				*weapon_axe_battle
-				*weapon_axe_war
-				*weapon_axe_great
-				*weapon_axe_shatter
-				*weapon_axe_magic
-				*weapon_hammer_spiked
-				*weapon_hammer_light
-				*weapon_hammer_morningstar
-				*weapon_hammer_heavyclub
-				*weapon_hammer_mace
-				*weapon_hammer_maul
-				*weapon_hammer_battle
-				*weapon_hammer_chaos
-				*weapon_hammer_heavymorningstar
-				*weapon_hammer_magic
-				*weapon_sword_lightshort
-				*weapon_sword_broad
-				*weapon_sword_long
-				*weapon_sword_scimitar
-				*weapon_sword_dwarven
-				*weapon_sword_sabre
-				*weapon_sword_falchion
-				*weapon_sword_bastard
-				*weapon_sword_warrior
-				*weapon_sword_frost2
-				*weapon_sword_mordessa
-				*weapon_sword_fire
-				*weapon_crossbow_light
-				*weapon_crossbow_dwarven
-				*weapon_crossbow_heavy
-				*weapon_crossbow_repeating
-				*weapon_crossbow_magic
-				*item_shield_targa
-				*item_shield_buckler
-				*item_shield_spiked
-				*item_shield_brute
-				*item_shield_round
-				*item_shield_kite
-				*item_shield_blade
-				*item_shield_chaos
-				*item_shield_thorn
-				*item_shield_ancient
-				*item_shield_magic
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
-				*item_bolt_poison_20
-				*item_bolt_poison_40
-				*item_bolt_poison_60
-				*item_bolt_poison_120
-				*item_bolt_poison_240
-				*item_bolt_magic_20
-				*item_bolt_magic_40
-				*item_bolt_magic_60
-				*item_bolt_magic_120
-				*item_bolt_magic_240
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*engineer
-		{
-			*available 1
-			*items
-			{
-				*weapon_sword_long
-				*weapon_crossbow_light
-				*weapon_bomb_8
-				*weapon_firebottle_8
-				*item_shield_buckler
-				*item_bolt_normal_40
-				*item_staff_shield
-				//*armour_level0
-			}
-			*availableitems
-			{				
-				*weapon_hammer_spiked
-				*weapon_hammer_light
-				*weapon_hammer_morningstar
-				*weapon_hammer_heavyclub
-				*weapon_hammer_mace
-				*weapon_hammer_maul
-				*weapon_hammer_battle
-				*weapon_hammer_chaos
-				*weapon_hammer_heavymorningstar
-				*weapon_hammer_magic
-				*weapon_axe_bearded
-				*weapon_axe_kama
-				*weapon_axe_short
-				*weapon_axe_pike
-				*weapon_axe_brute
-				*weapon_axe_battle
-				*weapon_axe_war
-				*weapon_axe_great
-				*weapon_axe_shatter
-				*weapon_axe_magic
-				*weapon_sword_lightshort
-				*weapon_sword_broad
-				*weapon_sword_long
-				*weapon_sword_scimitar
-				*weapon_sword_dwarven
-				*weapon_sword_sabre
-				*weapon_sword_falchion
-				*weapon_sword_bastard
-				*weapon_sword_warrior
-				*weapon_sword_frost2
-				*weapon_sword_mordessa
-				*weapon_sword_fire				
-				*weapon_crossbow_light
-				*weapon_crossbow_dwarven
-				*weapon_crossbow_heavy
-				*weapon_crossbow_repeating
-				*weapon_crossbow_magic
-				*item_shield_targa
-				*item_shield_buckler
-				*item_shield_spiked
-				*item_shield_brute
-				*item_shield_round
-				*item_shield_kite
-				*item_shield_blade
-				*item_shield_chaos
-				*item_shield_thorn
-				*item_shield_ancient
-				*item_shield_magic
-				*weapon_bomb_2
-				*weapon_bomb_4
-				*weapon_bomb_6
-				*weapon_bomb_8
-				*weapon_bomb_16
-				*weapon_hebomb_2
-				*weapon_hebomb_4
-				*weapon_hebomb_6
-				*weapon_hebomb_8
-				*weapon_hebomb_16
-				*weapon_firebottle_2
-				*weapon_firebottle_4
-				*weapon_firebottle_6
-				*weapon_firebottle_8
-				*weapon_firebottle_16
-				*weapon_hefirebottle_2
-				*weapon_hefirebottle_4
-				*weapon_hefirebottle_6
-				*weapon_hefirebottle_8
-				*weapon_hefirebottle_16
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}		
-		*wizard
-		{
-			*available 1
-			*items
-			{
-				*item_staff_shield
-				*weapon_staff_lightning
-				*weapon_staff_mind2
-				*weapon_dagger_short				
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_staff_cold
-				*weapon_staff_cold2
-				*weapon_staff_poison
-				*weapon_staff_poison2
-				*weapon_staff_lightning
-				*weapon_staff_lightning2
-				*weapon_staff_darkness
-				*weapon_staff_darkness2
-				*weapon_staff_mind
-				*weapon_staff_mind2
-				*weapon_staff_fire
-				*weapon_staff_fire2
-				*weapon_dagger_short
-				*weapon_dagger_long
-				*weapon_dagger_curved
-				*weapon_dagger_sacrifice
-				*weapon_dagger_poison
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*9320
-		{
-//			*available 1
-			*items
-			{
-				*weapon_rocketlauncher
-			}
-			*availableitems
-			{
-				*weapon_rocketlauncher
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-			}
-		}
-		*Golem
-		{
-//			*available 1
-			*items
-			{
-				*weapon_hammer_golem2
-			}
-			*availableitems
-			{
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-			}
-		}				
-		*assassin
-		{
-			*available 1
-			*items
-			{
-				*weapon_bow_long
-				*weapon_crossbow_dwarven
-				*weapon_dagger_short
-				*item_arrow_burst_40
-				*item_arrow_fire_10
-				*item_arrow_grenade_5
-				*item_arrow_sniper_10
-				*item_bolt_normal_40
-				*item_staff_shield
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_dagger_short
-				*weapon_dagger_long
-				*weapon_dagger_curved
-				*weapon_dagger_sacrifice
-				*weapon_dagger_poison
-				*weapon_bow_short
-				*weapon_bow_long
-				*weapon_bow_burst
-				*weapon_bow_sniper
-				*weapon_bow_magic
-				*weapon_crossbow_light
-				*weapon_crossbow_dwarven
-				*weapon_crossbow_heavy
-				*weapon_crossbow_repeating
-				*weapon_crossbow_magic
-				*item_shield_targa
-				*item_shield_buckler
-				*item_shield_spiked
-				*item_shield_brute
-				*item_shield_round
-				*item_shield_kite
-				*item_shield_blade
-				*item_shield_chaos
-				*item_shield_thorn
-				*item_shield_ancient
-				*item_shield_magic
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
-				*item_bolt_poison_20
-				*item_bolt_poison_40
-				*item_bolt_poison_60
-				*item_bolt_poison_120
-				*item_bolt_poison_240
-				*item_bolt_magic_20
-				*item_bolt_magic_40
-				*item_bolt_magic_60
-				*item_bolt_magic_120
-				*item_bolt_magic_240
-				*item_arrow_burst_20
-				*item_arrow_burst_40
-				*item_arrow_burst_60
-				*item_arrow_burst_120
-				*item_arrow_burst_240
-				*item_arrow_fire_10
-				*item_arrow_fire_20
-				*item_arrow_fire_30
-				*item_arrow_fire_60
-				*item_arrow_fire_120
-				*item_arrow_lafire_10
-				*item_arrow_lafire_20
-				*item_arrow_lafire_30
-				*item_arrow_lafire_60
-				*item_arrow_lafire_120
-				*item_arrow_grenade_5
-				*item_arrow_grenade_10
-				*item_arrow_grenade_15
-				*item_arrow_grenade_30
-				*item_arrow_grenade_60
-				*item_arrow_hegrenade_5
-				*item_arrow_hegrenade_10
-				*item_arrow_hegrenade_15
-				*item_arrow_hegrenade_30
-				*item_arrow_hegrenade_60
-				*item_arrow_sniper_5
-				*item_arrow_sniper_10
-				*item_arrow_sniper_15
-				*item_arrow_sniper_30
-				*item_arrow_sniper_60
-				*item_arrow_magic_5
-				*item_arrow_magic_10
-				*item_arrow_magic_15
-				*item_arrow_magic_30
-				*item_arrow_magic_60
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*berserker
-		{
-			*available 1
-			*items
-			{
-				*weapon_hammer_heavyclub
-				*weapon_crossbow_dwarven
-				*item_shield_spiked
-				*item_bolt_normal_40
-				*item_staff_shield
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_hammer_spiked
-				*weapon_hammer_war
-				*weapon_hammer_morningstar
-				*weapon_hammer_heavyclub
-				*weapon_hammer_mace
-				*weapon_hammer_maul
-				*weapon_hammer_battle
-				*weapon_hammer_chaos
-				*weapon_hammer_heavymorningstar
-				*weapon_hammer_magic
-				*weapon_axe_bearded
-				*weapon_axe_kama
-				*weapon_axe_short
-				*weapon_axe_pike
-				*weapon_axe_brute
-				*weapon_axe_battle
-				*weapon_axe_war
-				*weapon_axe_great
-				*weapon_axe_magic
-				*weapon_sword_short
-				*weapon_sword_broad
-				*weapon_sword_long
-				*weapon_sword_scimitar
-				*weapon_sword_dwarven
-				*weapon_sword_sabre
-				*weapon_sword_falchion
-				*weapon_sword_bastard
-				*weapon_sword_warrior
-				*weapon_sword_frost2
-				*weapon_sword_mordessa
-				*weapon_sword_fire
-				*weapon_crossbow_light
-				*weapon_crossbow_dwarven
-				*weapon_crossbow_heavy
-				*weapon_crossbow_repeating
-				*weapon_crossbow_magic
-				*item_shield_targa
-				*item_shield_buckler
-				*item_shield_spiked
-				*item_shield_brute
-				*item_shield_round
-				*item_shield_kite
-				*item_shield_blade
-				*item_shield_chaos
-				*item_shield_thorn
-				*item_shield_ancient
-				*item_shield_magic
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*sorceress
-		{
-			*available 1
-			*items
-			{
-				*item_staff_shield
-				*weapon_staff_lightning
-				*weapon_staff_poison2
-				*weapon_dagger_short				
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_staff_cold
-				*weapon_staff_cold2
-				*weapon_staff_poison
-				*weapon_staff_poison2	
-				*weapon_staff_lightning
-				*weapon_staff_lightning2
-				*weapon_staff_darkness
-				*weapon_staff_darkness2
-				*weapon_staff_mind
-				*weapon_staff_mind2
-				*weapon_staff_fire
-				*weapon_staff_fire2
-				*weapon_dagger_short
-				*weapon_dagger_long
-				*weapon_dagger_curved
-				*weapon_dagger_sacrifice
-				*weapon_dagger_poison
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*wolfrider
-		{
-			*available 1
-			*items
-			{
-				*weapon_axe_short
-				*weapon_crossbow_dwarven
-				*item_bolt_normal_40
-				*item_shield_targa
-				*item_staff_shield
-				//*armour_level0
-			}
-			*availableitems
-			{
 				*weapon_axe_bearded
 				*weapon_axe_kama
 				*weapon_axe_short
@@ -2851,23 +2920,23 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
-				*weapon_sword_short
-				*weapon_sword_broad
-				*weapon_sword_long
-				*weapon_sword_scimitar
-				*weapon_sword_dwarven
-				*weapon_sword_sabre
-				*weapon_sword_falchion
-				*weapon_sword_bastard
-				*weapon_sword_warrior
-				*weapon_sword_frost2
-				*weapon_sword_mordessa
-				*weapon_sword_fire
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_staff_cold2
+				*weapon_staff_poison2
+				*weapon_staff_lightning2
+				*weapon_staff_darkness2
+				*weapon_staff_mind2
+				*weapon_staff_fire2
+				*weapon_staff_mordessa
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2889,39 +2958,25 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
-				*item_bolt_poison_20
-				*item_bolt_poison_40
-				*item_bolt_poison_60
-				*item_bolt_poison_120
-				*item_bolt_poison_240
-				*item_bolt_magic_20
-				*item_bolt_magic_40
-				*item_bolt_magic_60
-				*item_bolt_magic_120
-				*item_bolt_magic_240
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 			}
 		}
-		*bombardier
+		*skeleton
 		{
 			*available 1
 			*items
 			{
-				*weapon_hammer_morningstar
-				*weapon_crossbow_light
-				*item_bolt_normal_40
-				*weapon_bomb_8
-				*weapon_firebottle_8
+				*weapon_sword_lightshort
 				*item_shield_spiked
-				*item_staff_shield
 				//*armour_level0
 			}
 			*availableitems
 			{
-				*weapon_sword_short
+				*weapon_sword_lightshort
 				*weapon_sword_broad
 				*weapon_sword_long
 				*weapon_sword_scimitar
@@ -2931,18 +2986,11 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
-				*weapon_sword_fire	
-				*weapon_hammer_spiked
-				*weapon_hammer_war
-				*weapon_hammer_morningstar
-				*weapon_hammer_heavyclub
-				*weapon_hammer_mace
-				*weapon_hammer_maul
-				*weapon_hammer_battle
-				*weapon_hammer_chaos
-				*weapon_hammer_heavymorningstar
-				*weapon_hammer_magic				
+				*weapon_sword_fire
 				*weapon_axe_bearded
 				*weapon_axe_kama
 				*weapon_axe_short
@@ -2952,12 +3000,34 @@
 				*weapon_axe_war
 				*weapon_axe_great
 				*weapon_axe_shatter
-				*weapon_axe_magic				
+				*weapon_axe_magic
+				*weapon_hammer_spiked
+				*weapon_hammer_war
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_staff_cold2
+				*weapon_staff_poison2
+				*weapon_staff_lightning2
+				*weapon_staff_darkness2
+				*weapon_staff_mind2
+				*weapon_staff_fire2
+				*weapon_staff_mordessa
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2969,26 +3039,6 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
-				*weapon_bomb_2
-				*weapon_bomb_4
-				*weapon_bomb_6
-				*weapon_bomb_8
-				*weapon_bomb_16
-				*weapon_hebomb_2
-				*weapon_hebomb_4
-				*weapon_hebomb_6
-				*weapon_hebomb_8
-				*weapon_hebomb_16
-				*weapon_firebottle_2
-				*weapon_firebottle_4
-				*weapon_firebottle_6
-				*weapon_firebottle_8
-				*weapon_firebottle_16
-				*weapon_hefirebottle_2
-				*weapon_hefirebottle_4
-				*weapon_hefirebottle_6
-				*weapon_hefirebottle_8
-				*weapon_hefirebottle_16
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -2999,64 +3049,78 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 			}
 		}
-		*lich
+		*scaara
 		{
 			*available 1
 			*items
 			{
 				*item_staff_shield
-				*weapon_staff_doom
-				*weapon_staff_darkness2
 				//*armour_level0
 			}
 			*availableitems
 			{
-				*weapon_staff_doom
-				*weapon_staff_doom2
-				*weapon_staff_cold
-				*weapon_staff_cold2
-				*weapon_staff_poison
-				*weapon_staff_poison2
-				*weapon_staff_lightning
-				*weapon_staff_lightning2
-				*weapon_staff_darkness
-				*weapon_staff_darkness2
-				*weapon_staff_mind
-				*weapon_staff_mind2
-				*weapon_staff_fire
-				*weapon_staff_fire2
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient
+				*weapon_sword_ancient
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked
+				*weapon_hammer_war
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
 				*item_potion_health_4
 				*item_potion_health_5
-				//*armour_level0
-				*armour_level1
-				*armour_level2
-				*armour_level3
-			}
-		}
-		*Feticia
-		{
-//			*available 1
-			*items
-			{
-				*weapon_rocketlauncher
-			}
-			*availableitems
-			{
-				*weapon_rocketlauncher
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -3064,21 +3128,5 @@
 				*item_potion_health_5
 			}
 		}
-		*Stonegnome
-		{
-//			*available 1
-			*items
-			{
-				*weapon_unarmed_stonegnome2
-			}
-			*availableitems
-			{
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-			}
-		}			
 	}
 }
