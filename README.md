@@ -12,29 +12,39 @@ This is simply a registry of references to these files and drives how many of th
 It will open some new possibilities like playing the first map of Light campaign with every character. Additional all characters will be playable on opponent side.
 I will try to expand it's features and ideas in future.
 
-**CHANGELOG**
--game cheatmenu entry for console history
--unlocked dark campaign via config entry
--all characters available from the beginning
--all weapons, armors, misc items are free
--all weapons, armors, misc items from the beginning
--removed mission restrictions on weapons, armor and misc items
--added Marcus The Merchant
--added Captain Lorus
--added Princess Jasindra
--added Queen Ayndirel
--added Zale The Wizard
--added Ancestor Warrior
--added Skeleton Warrior
--added Scaara Frogman
--added Mordessa
--added Mordessa on Light Side
--enabled character selection menu to first light campaign map
--expanded Weapon Arsenal for Mordessa (dagger, crossbow and shield)
--enabled new clone of ancient short-/sword
--enabled new clone of ancient dagger
--enabled assembly sword and staff
--enabled queen staff and fixed the name and descr.
+**CHANGELOG**<br/>
+-game cheatmenu entry for console history<br/>
+-unlocked dark campaign via config entry<br/>
+-all characters available from the beginning<br/>
+-all weapons, armors, misc items from beginning<br/>
+-removed mission restrictions from items<br/>
+-added playable Marcus The Merchant<br/>
+-added playable Captain Lorus<br/>
+-added playable Princess Jasindra<br/>
+-added playable Queen Ayndirel<br/>
+-added playable Assembly Guard<br/>
+-added playable Zale The Wizard<br/>
+-added playable Ancestor Warrior<br/>
+-added playable Skeleton Warrior<br/>
+-added playable Scaara Frogman<br/>
+-added playable Mordessa<br/>
+-added playable Mordessa on Light Side<br/>
+-character selection menu for first light map<br/>
+-expanded weapon arsenal for Mordessa<br/>
+-new ancient short sword clone for stronger stats<br/>
+-activated ancient short sword clone to characters<br/>
+-new ancient sword clone for stronger stats<br/>
+-activated ancient sword clone to characters<br/>
+-new ancient dagger clone for stronger stats<br/>
+-activated ancient dagger clone to characters<br/>
+-activated assembly sword and staff<br/>
+-activated queen staff<br/>
+-added missing queen staff name and descr.<br/>
+-activated vine as potion<br/>
+-increased health restore value of potion vine <br/>
+-added missing potion vine name and descr.<br/>
+
+...more in progress, balancing not final, mean while testing characters on her functions, jump, crouch, speed, height in relation to enemy hit zone, etc.
 
 **PREVIEWS**
 ![Marcus](https://github.com/user-attachments/assets/cf2d6edf-9287-4f61-9399-08b057f96027)
