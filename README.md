@@ -40,7 +40,7 @@ I will try to expand it's features and ideas in future.
 ![Lorus](https://github.com/user-attachments/assets/b5026fd9-f03b-4d84-ac5f-33a4d9e6c981)
 ![Jasindra](https://github.com/user-attachments/assets/0a492925-7d6d-4558-930d-cd0d9c3ad486)
 ![Ayrindel](https://github.com/user-attachments/assets/be90bab9-fb93-4caf-ba46-0ee578fe3b34)
-![Assembly](https://github.com/user-attachments/assets/d75b5a76-b818-4cdc-94a0-4949914a7230)
+![Assembly](https://github.com/user-attachments/assets/c171a545-6847-4e1f-ae0b-ffa7f6f0f93d)
 ![Zale](https://github.com/user-attachments/assets/205fab04-88da-45a7-a5af-91ae41b24991)
 ![Ancestor](https://github.com/user-attachments/assets/b8698db3-7c74-435b-b547-1870d953edea)
 ![Skeleton](https://github.com/user-attachments/assets/b767b617-baa3-4b28-9f67-9006b89ea276)
