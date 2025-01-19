@@ -711,7 +711,7 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Iellon_Dungeon
-			*award challenge:l_m2,item:paladin:weapon_sword_lightshort,item:paladin:item_shield_targa,gold:75
+			*award special:unlockdarkcampaign,challenge:l_m2,gold:75
 		}
 	}
 	*l_m2
@@ -726,7 +726,7 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Iellon_Outpost_L
-			*award challenge:l_m3,gold:75,character:archer,item:paladin:weapon_crossbow_light
+			*award challenge:l_m3,gold:75
 		}
 	}
 	*l_m3
@@ -755,7 +755,7 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Deserted_Temple
-			*award challenge:l_m5,character:druid,gold:200
+			*award challenge:l_m5,gold:200
 			*specialaward_0 challenge:l_c1_1
 		}
 	}
@@ -770,7 +770,7 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Divided_City
-			*award challenge:l_m6,character:boarrider,gold:250
+			*award challenge:l_m6,gold:250
 		}
 	}
 	*l_m6
@@ -784,7 +784,7 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Outland_Wastes
-			*award challenge:l_m7,character:engineer,gold:300,item:paladin:weapon_sword_frost2,item:boarrider:weapon_sword_frost2,item:engineer:weapon_sword_frost2
+			*award challenge:l_m7,gold:300
 		}
 	}
 	*l_m7
@@ -828,7 +828,7 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Sanctuary
-			*award challenge:l_m10,character:wizard,gold:450
+			*award challenge:l_m10,gold:450
 		}
 	}
 	*l_m10
@@ -887,7 +887,7 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Ark_Moor_L
-			*award challenge:l_m14,gold:650,item:paladin:weapon_sword_mordessa
+			*award challenge:l_m14,gold:650
 		}
 	}
 	*l_m14
@@ -903,7 +903,6 @@
 		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
 		{
 			*map Vatar
-			*award special:unlockdarkcampaign,character:golem
 		}
 	}
 	*d_m0
@@ -926,7 +925,7 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Zuranas_Mansion
-			*award challenge:d_m2,gold:100,item:assassin:weapon_crossbow_light,item:assassin:weapon_bow_short,item:assassin:weapon_dagger_short
+			*award challenge:d_m2,gold:100
 		}
 	}
 	*d_m2
@@ -941,7 +940,7 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Celadia_Village_D
-			*award challenge:d_m3,character:berserker,gold:200
+			*award challenge:d_m3,gold:200
 		}
 	}
 	*d_m3
@@ -957,7 +956,7 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Ark_Moor_D
-			*award challenge:d_m4,character:sorceress,gold:200
+			*award challenge:d_m4,gold:200
 		}
 	}
 	*d_m4
@@ -971,7 +970,7 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Mansion_of_Dreams_I
-			*award challenge:d_m5,character:wolfrider,gold:250
+			*award challenge:d_m5,gold:250
 			*specialaward_0 challenge:d_c1_1
 		}
 	}
@@ -1001,7 +1000,7 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Mansion_of_Dreams_II
-			*award challenge:d_m7,character:bombardier,gold:350
+			*award challenge:d_m7,gold:350
 		}
 	}
 	*d_m7
@@ -1047,7 +1046,7 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Iellon_Outpost_D
-			*award challenge:d_m10,character:lich,gold:500
+			*award challenge:d_m10,gold:500
 		}
 	}
 	*d_m10
@@ -1092,7 +1091,7 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Ur-Annon_Island
-			*award challenge:d_m13,gold:650,item:bombardier:weapon_sword_mordessa
+			*award challenge:d_m13,gold:650
 		}
 	}
 	*d_m13
@@ -1107,7 +1106,6 @@
 		*character assassin+berserker+sorceress+wolfrider+bombardier+lich+feticia+stonegnome+skeleton+scaara+mordessa
 		{
 			*map Celenheim
-			*award character:stonegnome
 		}
 	}
 	*d_c1_1
@@ -1344,68 +1342,68 @@
 			}
 			*availableitems
 			{
-				*weapon_sword_lightshort l_m3
-				*weapon_sword_broad l_m3
-				*weapon_sword_long l_m4
-				*weapon_sword_scimitar l_m5
-				*weapon_sword_dwarven l_m6
-				*weapon_sword_sabre l_m7
-				*weapon_sword_falchion l_m8
-				*weapon_sword_bastard l_m9
-				*weapon_sword_warrior l_m10
-				*weapon_sword_frost2 l_m7
-				*weapon_sword_mordessa l_m14
-				*weapon_sword_fire l_m12				
-				*weapon_axe_bearded l_m2
-				*weapon_axe_kama l_m3
-				*weapon_axe_short l_m4
-				*weapon_axe_pike l_m5
-				*weapon_axe_brute l_m6
-				*weapon_axe_battle l_m7
-				*weapon_axe_war l_m8
-				*weapon_axe_great l_m9
-				*weapon_axe_shatter l_m10
-				*weapon_axe_magic l_m12
-				*weapon_hammer_spiked l_m3
-				*weapon_hammer_light l_m3
-				*weapon_hammer_morningstar l_m4
-				*weapon_hammer_heavyclub l_m5
-				*weapon_hammer_mace l_m6
-				*weapon_hammer_maul l_m7
-				*weapon_hammer_battle l_m8
-				*weapon_hammer_chaos l_m9
-				*weapon_hammer_heavymorningstar l_m10
-				*weapon_hammer_magic l_m12
-				*weapon_crossbow_light l_m3
-				*weapon_crossbow_dwarven l_m4
-				*weapon_crossbow_heavy l_m7
-				*weapon_crossbow_repeating l_m9
-				*weapon_crossbow_magic l_m12
-				*item_shield_targa l_m3
-				*item_shield_buckler l_m3
-				*item_shield_spiked l_m3
-				*item_shield_brute l_m4
-				*item_shield_round l_m5
-				*item_shield_kite l_m6
-				*item_shield_blade l_m7
-				*item_shield_chaos l_m8
-				*item_shield_thorn l_m9
-				*item_shield_ancient l_m10
-				*item_shield_magic l_m12
-				*item_bolt_normal_20 l_m3
-				*item_bolt_normal_40 l_m3
-				*item_bolt_normal_60 l_m3
-				*item_bolt_normal_120 l_m3
-				*item_bolt_normal_240 l_m3
-				*item_potion_health_1 l_m3
-				*item_potion_health_2 l_m5
-				*item_potion_health_3 l_m7
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
-				*armour_level0 l_m1
-				*armour_level1 l_m3
-				*armour_level2 l_m7
-				*armour_level3 l_m12
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_mordessa
+				*weapon_sword_fire			
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chao
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*archer
@@ -1417,80 +1415,80 @@
 			}
 			*availableitems
 			{
-				*weapon_dagger_short l_m3
-				*weapon_dagger_long l_m3
-				*weapon_dagger_curved l_m5
-				*weapon_dagger_sacrifice l_m7
-				*weapon_dagger_poison l_m12
-				*weapon_bow_short l_m3
-				*weapon_bow_long l_m4
-				*weapon_bow_burst l_m5
-				*weapon_bow_sniper l_m7
-				*weapon_bow_magic l_m12
-				*weapon_crossbow_light l_m3
-				*weapon_crossbow_dwarven l_m3
-				*weapon_crossbow_heavy l_m5
-				*weapon_crossbow_repeating l_m7
-				*weapon_crossbow_magic l_m12
-				*item_bolt_normal_20 l_m3
-				*item_bolt_normal_40 l_m3
-				*item_bolt_normal_60 l_m3
-				*item_bolt_normal_120 l_m3
-				*item_bolt_normal_240 l_m3
-				*item_bolt_poison_20 l_m6
-				*item_bolt_poison_40 l_m6
-				*item_bolt_poison_60 l_m6
-				*item_bolt_poison_120 l_m6
-				*item_bolt_poison_240 l_m6
-				*item_bolt_magic_20 l_m12
-				*item_bolt_magic_40 l_m12
-				*item_bolt_magic_60 l_m12
-				*item_bolt_magic_120 l_m12
-				*item_bolt_magic_240 l_m12
-				*item_arrow_burst_20 l_m3
-				*item_arrow_burst_40 l_m3
-				*item_arrow_burst_60 l_m3
-				*item_arrow_burst_120 l_m3
-				*item_arrow_burst_240 l_m3
-				*item_arrow_fire_10 l_m3
-				*item_arrow_fire_20 l_m3
-				*item_arrow_fire_30 l_m3
-				*item_arrow_fire_60 l_m3
-				*item_arrow_fire_120 l_m3
-				*item_arrow_lafire_10 l_m7
-				*item_arrow_lafire_20 l_m7
-				*item_arrow_lafire_30 l_m7
-				*item_arrow_lafire_60 l_m7
-				*item_arrow_lafire_120 l_m7
-				*item_arrow_grenade_5 l_m3
-				*item_arrow_grenade_10 l_m3
-				*item_arrow_grenade_15 l_m3
-				*item_arrow_grenade_30 l_m3
-				*item_arrow_grenade_60 l_m3
-				*item_arrow_hegrenade_5 l_m7
-				*item_arrow_hegrenade_10 l_m7
-				*item_arrow_hegrenade_15 l_m7
-				*item_arrow_hegrenade_30 l_m7
-				*item_arrow_hegrenade_60 l_m7
-				*item_arrow_sniper_5 l_m3
-				*item_arrow_sniper_10 l_m3
-				*item_arrow_sniper_15 l_m3
-				*item_arrow_sniper_30 l_m3
-				*item_arrow_sniper_60 l_m3
-				*item_arrow_magic_5 l_m12
-				*item_arrow_magic_10 l_m12
-				*item_arrow_magic_15 l_m12
-				*item_arrow_magic_30 l_m12
-				*item_arrow_magic_60 l_m12
-				*item_potion_health_1 l_m3
-				*item_potion_health_2 l_m5
-				*item_potion_health_3 l_m7
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
-				*armour_level0 l_m3
-				*armour_level1 l_m3
-				*armour_level2 l_m7
-				*armour_level3 l_m10
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved 
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_bow_short
+				*weapon_bow_long
+				*weapon_bow_burst
+				*weapon_bow_sniper
+				*weapon_bow_magic
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
+				*item_arrow_burst_20
+				*item_arrow_burst_40
+				*item_arrow_burst_60
+				*item_arrow_burst_120
+				*item_arrow_burst_240
+				*item_arrow_fire_10
+				*item_arrow_fire_20
+				*item_arrow_fire_30
+				*item_arrow_fire_60
+				*item_arrow_fire_120
+				*item_arrow_lafire_10
+				*item_arrow_lafire_20
+				*item_arrow_lafire_30
+				*item_arrow_lafire_60
+				*item_arrow_lafire_120
+				*item_arrow_grenade_5
+				*item_arrow_grenade_10
+				*item_arrow_grenade_15
+				*item_arrow_grenade_30
+				*item_arrow_grenade_60
+				*item_arrow_hegrenade_5
+				*item_arrow_hegrenade_10
+				*item_arrow_hegrenade_15
+				*item_arrow_hegrenade_30
+				*item_arrow_hegrenade_60
+				*item_arrow_sniper_5
+				*item_arrow_sniper_10
+				*item_arrow_sniper_15
+				*item_arrow_sniper_30
+				*item_arrow_sniper_60
+				*item_arrow_magic_5
+				*item_arrow_magic_10
+				*item_arrow_magic_15
+				*item_arrow_magic_30
+				*item_arrow_magic_60
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*druid
@@ -1502,34 +1500,34 @@
 			}
 			*availableitems
 			{
-				*weapon_staff_spirit l_m5
-				*weapon_staff_spirit2 l_m5
-				*weapon_staff_cold l_m5
-				*weapon_staff_cold2 l_m5
-				*weapon_staff_poison l_m5
-				*weapon_staff_poison2 l_m5
-				*weapon_staff_lightning l_m7
-				*weapon_staff_lightning2 l_m7
-				*weapon_staff_darkness l_m7
-				*weapon_staff_darkness2 l_m7
-				*weapon_staff_mind l_m10
-				*weapon_staff_mind2 l_m10
-				*weapon_staff_fire l_m10
-				*weapon_staff_fire2 l_m10
-				*weapon_dagger_short l_m5
-				*weapon_dagger_long l_m5
-				*weapon_dagger_curved l_m5
-				*weapon_dagger_sacrifice l_m7
-				*weapon_dagger_poison l_m12
-				*item_potion_health_1 l_m5
-				*item_potion_health_2 l_m5
-				*item_potion_health_3 l_m7
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
-				*armour_level0 l_m1
-				*armour_level1 l_m3
-				*armour_level2 l_m7
-				*armour_level3 l_m12
+				*weapon_staff_spirit
+				*weapon_staff_spirit2
+				*weapon_staff_cold
+				*weapon_staff_cold2
+				*weapon_staff_poison
+				*weapon_staff_poison2
+				*weapon_staff_lightning
+				*weapon_staff_lightning2
+				*weapon_staff_darkness
+				*weapon_staff_darkness2
+				*weapon_staff_mind
+				*weapon_staff_mind2
+				*weapon_staff_fire
+				*weapon_staff_fire2
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}	
 		}
 		*boarrider
@@ -1541,78 +1539,78 @@
 			}
 			*availableitems
 			{
-				*weapon_axe_bearded l_m6
-				*weapon_axe_kama l_m6
-				*weapon_axe_short l_m6
-				*weapon_axe_pike l_m6
-				*weapon_axe_brute l_m6
-				*weapon_axe_battle l_m7
-				*weapon_axe_war l_m8
-				*weapon_axe_great l_m9
-				*weapon_axe_shatter l_m10
-				*weapon_axe_magic l_m12
-				*weapon_hammer_spiked l_m6
-				*weapon_hammer_light l_m6
-				*weapon_hammer_morningstar l_m6
-				*weapon_hammer_heavyclub l_m6
-				*weapon_hammer_mace l_m6
-				*weapon_hammer_maul l_m7
-				*weapon_hammer_battle l_m8
-				*weapon_hammer_chaos l_m9
-				*weapon_hammer_heavymorningstar l_m10
-				*weapon_hammer_magic l_m12
-				*weapon_sword_lightshort l_m6
-				*weapon_sword_broad l_m6
-				*weapon_sword_long l_m6
-				*weapon_sword_scimitar l_m6
-				*weapon_sword_dwarven l_m6
-				*weapon_sword_sabre l_m7
-				*weapon_sword_falchion l_m8
-				*weapon_sword_bastard l_m9
-				*weapon_sword_warrior l_m10
-				*weapon_sword_frost2 l_m7
-				*weapon_sword_mordessa l_m14
-				*weapon_sword_fire l_m12				
-				*weapon_crossbow_light l_m6
-				*weapon_crossbow_dwarven l_m6
-				*weapon_crossbow_heavy l_m7
-				*weapon_crossbow_repeating l_m9
-				*weapon_crossbow_magic l_m12
-				*item_shield_targa l_m6
-				*item_shield_buckler l_m6
-				*item_shield_spiked l_m6
-				*item_shield_brute l_m6
-				*item_shield_round l_m6
-				*item_shield_kite l_m6
-				*item_shield_blade l_m7
-				*item_shield_chaos l_m8
-				*item_shield_thorn l_m9
-				*item_shield_ancient l_m10
-				*item_shield_magic l_m12
-				*item_bolt_normal_20 l_m6
-				*item_bolt_normal_40 l_m6
-				*item_bolt_normal_60 l_m6
-				*item_bolt_normal_120 l_m6
-				*item_bolt_normal_240 l_m6
-				*item_bolt_poison_20 l_m6
-				*item_bolt_poison_40 l_m6
-				*item_bolt_poison_60 l_m6
-				*item_bolt_poison_120 l_m6
-				*item_bolt_poison_240 l_m6
-				*item_bolt_magic_20 l_m12
-				*item_bolt_magic_40 l_m12
-				*item_bolt_magic_60 l_m12
-				*item_bolt_magic_120 l_m12
-				*item_bolt_magic_240 l_m12
-				*item_potion_health_1 l_m6
-				*item_potion_health_2 l_m6
-				*item_potion_health_3 l_m7
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
-				*armour_level0 l_m1
-				*armour_level1 l_m3
-				*armour_level2 l_m7
-				*armour_level3 l_m12
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_mordessa
+				*weapon_sword_fire			
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*engineer
@@ -1624,88 +1622,88 @@
 			}
 			*availableitems
 			{
-				*weapon_hammer_spiked l_m7
-				*weapon_hammer_light l_m7
-				*weapon_hammer_morningstar l_m7
-				*weapon_hammer_heavyclub l_m7
-				*weapon_hammer_mace l_m7
-				*weapon_hammer_maul l_m7
-				*weapon_hammer_battle l_m8
-				*weapon_hammer_chaos l_m9
-				*weapon_hammer_heavymorningstar l_m10
-				*weapon_hammer_magic l_m12
-				*weapon_axe_bearded l_m7
-				*weapon_axe_kama l_m7
-				*weapon_axe_short l_m7
-				*weapon_axe_pike l_m7
-				*weapon_axe_brute l_m7
-				*weapon_axe_battle l_m7
-				*weapon_axe_war l_m8
-				*weapon_axe_great l_m9
-				*weapon_axe_shatter l_m10
-				*weapon_axe_magic l_m12
-				*weapon_sword_lightshort l_m7
-				*weapon_sword_broad l_m7
-				*weapon_sword_long l_m7
-				*weapon_sword_scimitar l_m7
-				*weapon_sword_dwarven l_m7
-				*weapon_sword_sabre l_m7
-				*weapon_sword_falchion l_m8
-				*weapon_sword_bastard l_m9
-				*weapon_sword_warrior l_m10
-				*weapon_sword_frost2 l_m7
-				*weapon_sword_mordessa l_m14
-				*weapon_sword_fire l_m12
-				*weapon_crossbow_light l_m7
-				*weapon_crossbow_dwarven l_m7
-				*weapon_crossbow_heavy l_m7
-				*weapon_crossbow_repeating l_m9
-				*weapon_crossbow_magic l_m12
-				*item_shield_targa l_m7
-				*item_shield_buckler l_m7
-				*item_shield_spiked l_m7
-				*item_shield_brute l_m7
-				*item_shield_round l_m7
-				*item_shield_kite l_m7
-				*item_shield_blade l_m7
-				*item_shield_chaos l_m8
-				*item_shield_thorn l_m9
-				*item_shield_ancient l_m10
-				*item_shield_magic l_m12
-				*item_bolt_normal_20 l_m7
-				*item_bolt_normal_40 l_m7
-				*item_bolt_normal_60 l_m7
-				*item_bolt_normal_120 l_m7
-				*item_bolt_normal_240 l_m7
-				*weapon_bomb_2 l_m7
-				*weapon_bomb_4 l_m7
-				*weapon_bomb_6 l_m7
-				*weapon_bomb_8 l_m7
-				*weapon_bomb_16 l_m7
-				*weapon_hebomb_2 l_m10
-				*weapon_hebomb_4 l_m10
-				*weapon_hebomb_6 l_m10
-				*weapon_hebomb_8 l_m10
-				*weapon_hebomb_16 l_m10
-				*weapon_firebottle_2 l_m7
-				*weapon_firebottle_4 l_m7
-				*weapon_firebottle_6 l_m7
-				*weapon_firebottle_8 l_m7
-				*weapon_firebottle_16 l_m7
-				*weapon_hefirebottle_2 l_m10
-				*weapon_hefirebottle_4 l_m10
-				*weapon_hefirebottle_6 l_m10
-				*weapon_hefirebottle_8 l_m10
-				*weapon_hefirebottle_16 l_m10
-				*item_potion_health_1 l_m7
-				*item_potion_health_2 l_m7
-				*item_potion_health_3 l_m7
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
-				*armour_level0 l_m1
-				*armour_level1 l_m3
-				*armour_level2 l_m7
-				*armour_level3 l_m12
+				*weapon_hammer_spiked
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_mordessa
+				*weapon_sword_fire
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*weapon_bomb_2
+				*weapon_bomb_4
+				*weapon_bomb_6
+				*weapon_bomb_8
+				*weapon_bomb_16
+				*weapon_hebomb_2
+				*weapon_hebomb_4
+				*weapon_hebomb_6
+				*weapon_hebomb_8
+				*weapon_hebomb_16
+				*weapon_firebottle_2
+				*weapon_firebottle_4
+				*weapon_firebottle_6
+				*weapon_firebottle_8
+				*weapon_firebottle_16
+				*weapon_hefirebottle_2
+				*weapon_hefirebottle_4
+				*weapon_hefirebottle_6
+				*weapon_hefirebottle_8
+				*weapon_hefirebottle_16
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*wizard
@@ -1717,32 +1715,32 @@
 			}
 			*availableitems
 			{
-				*weapon_staff_cold l_m10
-				*weapon_staff_cold2 l_m10
-				*weapon_staff_poison l_m10
-				*weapon_staff_poison2 l_m10
-				*weapon_staff_lightning l_m10
-				*weapon_staff_lightning2 l_m10
-				*weapon_staff_darkness l_m10
-				*weapon_staff_darkness2 l_m10
-				*weapon_staff_mind l_m10
-				*weapon_staff_mind2 l_m10	
-				*weapon_staff_fire l_m10
-				*weapon_staff_fire2 l_m10
-				*weapon_dagger_short l_m10
-				*weapon_dagger_long l_m10
-				*weapon_dagger_curved l_m10
-				*weapon_dagger_sacrifice l_m10
-				*weapon_dagger_poison l_m12
-				*item_potion_health_1 l_m10
-				*item_potion_health_2 l_m10
-				*item_potion_health_3 l_m10
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
-				*armour_level0 l_m1
-				*armour_level1 l_m3
-				*armour_level2 l_m7
-				*armour_level3 l_m12
+				*weapon_staff_cold
+				*weapon_staff_cold2
+				*weapon_staff_poison
+				*weapon_staff_poison2
+				*weapon_staff_lightning
+				*weapon_staff_lightning2
+				*weapon_staff_darkness
+				*weapon_staff_darkness2
+				*weapon_staff_mind
+				*weapon_staff_mind2
+				*weapon_staff_fire
+				*weapon_staff_fire2
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*9320
@@ -1754,11 +1752,11 @@
 			*availableitems
 			{
 				*weapon_rocketlauncher
-				*item_potion_health_1 l_m2
-				*item_potion_health_2 l_m5
-				*item_potion_health_3 l_m7
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 			}
 		}
 		*Golem
@@ -1769,11 +1767,11 @@
 			}
 			*availableitems
 			{
-				*item_potion_health_1 l_m2
-				*item_potion_health_2 l_m5
-				*item_potion_health_3 l_m7
-				*item_potion_health_4 l_m10
-				*item_potion_health_5 l_m12
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 			}
 		}	
 		// new character zale - available items
@@ -2441,80 +2439,80 @@
 			}
 			*availableitems
 			{
-				*weapon_dagger_short d_m2
-				*weapon_dagger_long d_m2
-				*weapon_dagger_curved d_m7
-				*weapon_dagger_sacrifice d_m9
-				*weapon_dagger_poison d_m11
-				*weapon_bow_short d_m2
-				*weapon_bow_long d_m3
-				*weapon_bow_burst d_m7
-				*weapon_bow_sniper d_m9
-				*weapon_bow_magic d_m11
-				*weapon_crossbow_light d_m2
-				*weapon_crossbow_dwarven d_m3
-				*weapon_crossbow_heavy d_m7
-				*weapon_crossbow_repeating d_m9
-				*weapon_crossbow_magic d_m11
-				*item_bolt_normal_20 d_m2
-				*item_bolt_normal_40 d_m2
-				*item_bolt_normal_60 d_m2
-				*item_bolt_normal_120 d_m2
-				*item_bolt_normal_240 d_m2
-				*item_bolt_poison_20 d_m7
-				*item_bolt_poison_40 d_m7
-				*item_bolt_poison_60 d_m7
-				*item_bolt_poison_120 d_m7
-				*item_bolt_poison_240 d_m7
-				*item_bolt_magic_20 d_m11
-				*item_bolt_magic_40 d_m11
-				*item_bolt_magic_60 d_m11
-				*item_bolt_magic_120 d_m11
-				*item_bolt_magic_240 d_m11
-				*item_arrow_burst_20 d_m2
-				*item_arrow_burst_40 d_m2
-				*item_arrow_burst_60 d_m2
-				*item_arrow_burst_120 d_m2
-				*item_arrow_burst_240 d_m2
-				*item_arrow_fire_10 d_m2
-				*item_arrow_fire_20 d_m2
-				*item_arrow_fire_30 d_m2
-				*item_arrow_fire_60 d_m2
-				*item_arrow_fire_120 d_m2
-				*item_arrow_lafire_10 d_m7
-				*item_arrow_lafire_20 d_m7
-				*item_arrow_lafire_30 d_m7
-				*item_arrow_lafire_60 d_m7
-				*item_arrow_lafire_120 d_m7
-				*item_arrow_grenade_5 d_m2
-				*item_arrow_grenade_10 d_m2
-				*item_arrow_grenade_15 d_m2
-				*item_arrow_grenade_30 d_m2
-				*item_arrow_grenade_60 d_m2
-				*item_arrow_hegrenade_5 d_m7
-				*item_arrow_hegrenade_10 d_m7
-				*item_arrow_hegrenade_15 d_m7
-				*item_arrow_hegrenade_30 d_m7
-				*item_arrow_hegrenade_60 d_m7
-				*item_arrow_sniper_5 d_m2
-				*item_arrow_sniper_10 d_m2
-				*item_arrow_sniper_15 d_m2
-				*item_arrow_sniper_30 d_m2
-				*item_arrow_sniper_60 d_m2
-				*item_arrow_magic_5 d_m11
-				*item_arrow_magic_10 d_m11
-				*item_arrow_magic_15 d_m11
-				*item_arrow_magic_30 d_m11
-				*item_arrow_magic_60 d_m11
-				*item_potion_health_1 d_m2
-				*item_potion_health_2 d_m2
-				*item_potion_health_3 d_m7
-				*item_potion_health_4 d_m9
-				*item_potion_health_5 d_m11
-				*armour_level0 d_m1
-				*armour_level1 d_m3
-				*armour_level2 d_m7
-				*armour_level3 d_m11
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_bow_short
+				*weapon_bow_long
+				*weapon_bow_burst
+				*weapon_bow_sniper
+				*weapon_bow_magic
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
+				*item_arrow_burst_20
+				*item_arrow_burst_40
+				*item_arrow_burst_60
+				*item_arrow_burst_120
+				*item_arrow_burst_240
+				*item_arrow_fire_10
+				*item_arrow_fire_20
+				*item_arrow_fire_30
+				*item_arrow_fire_60
+				*item_arrow_fire_120
+				*item_arrow_lafire_10
+				*item_arrow_lafire_20
+				*item_arrow_lafire_30
+				*item_arrow_lafire_60
+				*item_arrow_lafire_120
+				*item_arrow_grenade_5
+				*item_arrow_grenade_10
+				*item_arrow_grenade_15
+				*item_arrow_grenade_30
+				*item_arrow_grenade_60
+				*item_arrow_hegrenade_5
+				*item_arrow_hegrenade_10
+				*item_arrow_hegrenade_15
+				*item_arrow_hegrenade_30
+				*item_arrow_hegrenade_60
+				*item_arrow_sniper_5
+				*item_arrow_sniper_10
+				*item_arrow_sniper_15
+				*item_arrow_sniper_30
+				*item_arrow_sniper_60
+				*item_arrow_magic_5
+				*item_arrow_magic_10
+				*item_arrow_magic_15
+				*item_arrow_magic_30
+				*item_arrow_magic_60
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*berserker
@@ -2526,68 +2524,68 @@
 			}
 			*availableitems
 			{
-				*weapon_hammer_spiked d_m3
-				*weapon_hammer_war d_m3
-				*weapon_hammer_morningstar d_m4
-				*weapon_hammer_heavyclub d_m5
-				*weapon_hammer_mace d_m6
-				*weapon_hammer_maul d_m7
-				*weapon_hammer_battle d_m8
-				*weapon_hammer_chaos d_m9
-				*weapon_hammer_heavymorningstar d_m10
-				*weapon_hammer_magic d_m11
-				*weapon_axe_bearded d_m3
-				*weapon_axe_kama d_m3
-				*weapon_axe_short d_m4
-				*weapon_axe_pike d_m5
-				*weapon_axe_brute d_m6
-				*weapon_axe_battle d_m7
-				*weapon_axe_war d_m8
-				*weapon_axe_great d_m9
-				*weapon_axe_shatter d_m10
-				*weapon_axe_magic d_m11
-				*weapon_sword_short d_m3
-				*weapon_sword_broad d_m3
-				*weapon_sword_long d_m4
-				*weapon_sword_scimitar d_m5
-				*weapon_sword_dwarven d_m6
-				*weapon_sword_sabre d_m7
-				*weapon_sword_falchion d_m8
-				*weapon_sword_bastard d_m9
-				*weapon_sword_warrior d_m10
-				*weapon_sword_frost2 d_m11
-				*weapon_sword_mordessa d_m13
-				*weapon_sword_fire d_m11
-				*weapon_crossbow_light d_m3
-				*weapon_crossbow_dwarven d_m3
-				*weapon_crossbow_heavy d_m7
-				*weapon_crossbow_repeating d_m9
-				*weapon_crossbow_magic d_m11
-				*item_shield_targa d_m3
-				*item_shield_buckler d_m3
-				*item_shield_spiked d_m3
-				*item_shield_brute d_m4
-				*item_shield_round d_m5
-				*item_shield_kite d_m6
-				*item_shield_blade d_m7
-				*item_shield_chaos d_m8
-				*item_shield_thorn d_m9
-				*item_shield_ancient d_m10
-				*item_shield_magic d_m11
-				*item_bolt_normal_20 d_m3
-				*item_bolt_normal_40 d_m3
-				*item_bolt_normal_60 d_m3
-				*item_bolt_normal_120 d_m3
-				*item_bolt_normal_240 d_m3
-				*item_potion_health_1 d_m3
-				*item_potion_health_2 d_m3
-				*item_potion_health_3 d_m7
-				*item_potion_health_4 d_m9
-				*item_potion_health_5 d_m11
-				*armour_level0 d_m1
-				*armour_level1 d_m3
-				*armour_level2 d_m7
-				*armour_level3 d_m11
+				*weapon_hammer_spiked
+				*weapon_hammer_war
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_sword_short
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_mordessa
+				*weapon_sword_fire
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1 
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*sorceress
@@ -2599,32 +2597,32 @@
 			}
 			*availableitems
 			{
-				*weapon_staff_cold d_m4
-				*weapon_staff_cold2 d_m4
-				*weapon_staff_poison d_m4
-				*weapon_staff_poison2 d_m4
-				*weapon_staff_lightning d_m7
-				*weapon_staff_lightning2 d_m7
-				*weapon_staff_darkness d_m7
-				*weapon_staff_darkness2 d_m7
-				*weapon_staff_mind d_m10
-				*weapon_staff_mind2 d_m10
-				*weapon_staff_fire d_m10
-				*weapon_staff_fire2 d_m10
-				*weapon_dagger_short d_m4
-				*weapon_dagger_long d_m4
-				*weapon_dagger_curved d_m7
-				*weapon_dagger_sacrifice d_m9
-				*weapon_dagger_poison d_m11
-				*item_potion_health_1 d_m4
-				*item_potion_health_2 d_m4
-				*item_potion_health_3 d_m7
-				*item_potion_health_4 d_m9
-				*item_potion_health_5 d_m11
-				*armour_level0 d_m4
-				*armour_level1 d_m4
-				*armour_level2 d_m7
-				*armour_level3 d_m11
+				*weapon_staff_cold
+				*weapon_staff_cold2
+				*weapon_staff_poison
+				*weapon_staff_poison2
+				*weapon_staff_lightning
+				*weapon_staff_lightning2
+				*weapon_staff_darkness
+				*weapon_staff_darkness2
+				*weapon_staff_mind
+				*weapon_staff_mind2
+				*weapon_staff_fire
+				*weapon_staff_fire2
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*wolfrider
@@ -2636,78 +2634,78 @@
 			}
 			*availableitems
 			{
-				*weapon_axe_bearded d_m5
-				*weapon_axe_kama d_m5
-				*weapon_axe_short d_m5
-				*weapon_axe_pike d_m5
-				*weapon_axe_brute d_m6
-				*weapon_axe_battle d_m7
-				*weapon_axe_war d_m8
-				*weapon_axe_great d_m9
-				*weapon_axe_shatter d_m10
-				*weapon_axe_magic d_m11
-				*weapon_hammer_spiked d_m5
-				*weapon_hammer_war d_m5
-				*weapon_hammer_morningstar d_m5
-				*weapon_hammer_heavyclub d_m5
-				*weapon_hammer_mace d_m6
-				*weapon_hammer_maul d_m7
-				*weapon_hammer_battle d_m8
-				*weapon_hammer_chaos d_m9
-				*weapon_hammer_heavymorningstar d_m10
-				*weapon_hammer_magic d_m11
-				*weapon_sword_short d_m5
-				*weapon_sword_broad d_m5
-				*weapon_sword_long d_m5
-				*weapon_sword_scimitar d_m5
-				*weapon_sword_dwarven d_m6
-				*weapon_sword_sabre d_m7
-				*weapon_sword_falchion d_m8
-				*weapon_sword_bastard d_m9
-				*weapon_sword_warrior d_m10
-				*weapon_sword_frost2 d_m11
-				*weapon_sword_mordessa d_m13
-				*weapon_sword_fire d_m11			
-				*weapon_crossbow_light d_m5
-				*weapon_crossbow_dwarven d_m5
-				*weapon_crossbow_heavy d_m7
-				*weapon_crossbow_repeating d_m9
-				*weapon_crossbow_magic d_m11
-				*item_shield_targa d_m5
-				*item_shield_buckler d_m5
-				*item_shield_spiked d_m5
-				*item_shield_brute d_m5
-				*item_shield_round d_m5
-				*item_shield_kite d_m6
-				*item_shield_blade d_m7
-				*item_shield_chaos d_m8
-				*item_shield_thorn d_m9
-				*item_shield_ancient d_m10
-				*item_shield_magic d_m11
-				*item_bolt_normal_20 d_m5
-				*item_bolt_normal_40 d_m5
-				*item_bolt_normal_60 d_m5
-				*item_bolt_normal_120 d_m5
-				*item_bolt_normal_240 d_m5
-				*item_bolt_poison_20 d_m7
-				*item_bolt_poison_40 d_m7
-				*item_bolt_poison_60 d_m7
-				*item_bolt_poison_120 d_m7
-				*item_bolt_poison_240 d_m7
-				*item_bolt_magic_20 d_m11
-				*item_bolt_magic_40 d_m11
-				*item_bolt_magic_60 d_m11
-				*item_bolt_magic_120 d_m11
-				*item_bolt_magic_240 d_m11
-				*item_potion_health_1 d_m5
-				*item_potion_health_2 d_m5
-				*item_potion_health_3 d_m7
-				*item_potion_health_4 d_m9
-				*item_potion_health_5 d_m11
-				*armour_level0 d_m5
-				*armour_level1 d_m5
-				*armour_level2 d_m7
-				*armour_level3 d_m11
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_hammer_spiked
+				*weapon_hammer_war
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_sword_short
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_mordessa
+				*weapon_sword_fire			
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*bombardier
@@ -2719,88 +2717,88 @@
 			}
 			*availableitems
 			{
-				*weapon_sword_short d_m7
-				*weapon_sword_broad d_m7
-				*weapon_sword_long d_m7
-				*weapon_sword_scimitar d_m7
-				*weapon_sword_dwarven d_m7
-				*weapon_sword_sabre d_m7
-				*weapon_sword_falchion d_m8
-				*weapon_sword_bastard d_m9
-				*weapon_sword_warrior d_m10
-				*weapon_sword_frost2 d_m11
-				*weapon_sword_mordessa d_m13
-				*weapon_sword_fire d_m11			
-				*weapon_hammer_spiked d_m7
-				*weapon_hammer_war d_m7
-				*weapon_hammer_morningstar d_m7
-				*weapon_hammer_heavyclub d_m7
-				*weapon_hammer_mace d_m7
-				*weapon_hammer_maul d_m7
-				*weapon_hammer_battle d_m8
-				*weapon_hammer_chaos d_m9
-				*weapon_hammer_heavymorningstar d_m10
-				*weapon_hammer_magic d_m11
-				*weapon_axe_bearded d_m7
-				*weapon_axe_kama d_m7
-				*weapon_axe_short d_m7
-				*weapon_axe_pike d_m7
-				*weapon_axe_brute d_m7
-				*weapon_axe_battle d_m7
-				*weapon_axe_war d_m8
-				*weapon_axe_great d_m9
-				*weapon_axe_shatter d_m10
-				*weapon_axe_magic d_m11
-				*weapon_crossbow_light d_m7
-				*weapon_crossbow_dwarven d_m7
-				*weapon_crossbow_heavy d_m7
-				*weapon_crossbow_repeating d_m9
-				*weapon_crossbow_magic d_m11
-				*item_shield_targa d_m7
-				*item_shield_buckler d_m7
-				*item_shield_spiked d_m7
-				*item_shield_brute d_m7
-				*item_shield_round d_m7
-				*item_shield_kite d_m7
-				*item_shield_blade d_m7
-				*item_shield_chaos d_m8
-				*item_shield_thorn d_m9
-				*item_shield_ancient d_m10
-				*item_shield_magic d_m11
-				*weapon_bomb_2 d_m7
-				*weapon_bomb_4 d_m7
-				*weapon_bomb_6 d_m7
-				*weapon_bomb_8 d_m7
-				*weapon_bomb_16 d_m7
-				*weapon_hebomb_2 d_m9
-				*weapon_hebomb_4 d_m9
-				*weapon_hebomb_6 d_m9
-				*weapon_hebomb_8 d_m9
-				*weapon_hebomb_16 d_m9
-				*weapon_firebottle_2 d_m7
-				*weapon_firebottle_4 d_m7
-				*weapon_firebottle_6 d_m7
-				*weapon_firebottle_8 d_m7
-				*weapon_firebottle_16 d_m7
-				*weapon_hefirebottle_2 d_m9
-				*weapon_hefirebottle_4 d_m9
-				*weapon_hefirebottle_6 d_m9
-				*weapon_hefirebottle_8 d_m9
-				*weapon_hefirebottle_16 d_m9
-				*item_bolt_normal_20 d_m7
-				*item_bolt_normal_40 d_m7
-				*item_bolt_normal_60 d_m7
-				*item_bolt_normal_120 d_m7
-				*item_bolt_normal_240 d_m7
-				*item_potion_health_1 d_m7
-				*item_potion_health_2 d_m7
-				*item_potion_health_3 d_m7
-				*item_potion_health_4 d_m9
-				*item_potion_health_5 d_m11
-				*armour_level0 d_m7
-				*armour_level1 d_m7
-				*armour_level2 d_m7
-				*armour_level3 d_m11				
+				*weapon_sword_short
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_mordessa
+				*weapon_sword_fire			
+				*weapon_hammer_spiked
+				*weapon_hammer_war
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*weapon_bomb_2
+				*weapon_bomb_4
+				*weapon_bomb_6
+				*weapon_bomb_8
+				*weapon_bomb_16
+				*weapon_hebomb_2
+				*weapon_hebomb_4
+				*weapon_hebomb_6
+				*weapon_hebomb_8
+				*weapon_hebomb_16
+				*weapon_firebottle_2
+				*weapon_firebottle_4
+				*weapon_firebottle_6
+				*weapon_firebottle_8
+				*weapon_firebottle_16
+				*weapon_hefirebottle_2
+				*weapon_hefirebottle_4
+				*weapon_hefirebottle_6
+				*weapon_hefirebottle_8
+				*weapon_hefirebottle_16
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3				
 			}
 		}
 		*lich
@@ -2812,34 +2810,34 @@
 			}
 			*availableitems
 			{
-				*weapon_staff_doom d_m10
-				*weapon_staff_doom2 d_m10
-				*weapon_staff_cold d_m10
-				*weapon_staff_cold2 d_m10
-				*weapon_staff_poison d_m10
-				*weapon_staff_poison2 d_m10
-				*weapon_staff_lightning d_m10
-				*weapon_staff_lightning2 d_m10
-				*weapon_staff_darkness d_m10
-				*weapon_staff_darkness2 d_m10
-				*weapon_staff_mind d_m10
-				*weapon_staff_mind2 d_m10
-				*weapon_staff_fire d_m10
-				*weapon_staff_fire2 d_m10
-				*weapon_dagger_short d_m10
-				*weapon_dagger_long d_m10
-				*weapon_dagger_curved d_m10
-				*weapon_dagger_sacrifice d_m10
-				*weapon_dagger_poison d_m11
-				*item_potion_health_1 d_m10
-				*item_potion_health_2 d_m10
-				*item_potion_health_3 d_m10
-				*item_potion_health_4 d_m10
-				*item_potion_health_5 d_m11
-				*armour_level0 d_m10
-				*armour_level1 d_m10
-				*armour_level2 d_m10
-				*armour_level3 d_m11
+				*weapon_staff_doom
+				*weapon_staff_doom2
+				*weapon_staff_cold
+				*weapon_staff_cold2
+				*weapon_staff_poison
+				*weapon_staff_poison2
+				*weapon_staff_lightning
+				*weapon_staff_lightning2
+				*weapon_staff_darkness
+				*weapon_staff_darkness2
+				*weapon_staff_mind
+				*weapon_staff_mind2
+				*weapon_staff_fire
+				*weapon_staff_fire2
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*armour_level0
+				*armour_level1
+				*armour_level2
+				*armour_level3
 			}
 		}
 		*Feticia
@@ -2851,11 +2849,11 @@
 			*availableitems
 			{
 				*weapon_rocketlauncher
-				*item_potion_health_1 d_m2
-				*item_potion_health_2 d_m5
-				*item_potion_health_3 d_m7
-				*item_potion_health_4 d_m10
-				*item_potion_health_5 d_m12
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 			}
 		}
 		*Stonegnome
@@ -2866,11 +2864,11 @@
 			}
 			*availableitems
 			{
-				*item_potion_health_1 d_m2
-				*item_potion_health_2 d_m5
-				*item_potion_health_3 d_m7
-				*item_potion_health_4 d_m10
-				*item_potion_health_5 d_m12
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 			}
 		}
 		// new character mordessa - available items
