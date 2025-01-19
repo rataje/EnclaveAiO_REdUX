@@ -13,6 +13,7 @@ It will open some new possibilities like playing the first map of Light campaign
 I will try to expand it's features and ideas in future.
 
 **CHANGELOG**
+-game cheatmenu entry for console history
 -unlocked dark campaign via config entry
 -all characters available from the beginning
 -all weapons, armors, misc items are free
@@ -30,10 +31,10 @@ I will try to expand it's features and ideas in future.
 -added Mordessa on Light Side
 -enabled character selection menu to first light campaign map
 -expanded Weapon Arsenal for Mordessa (dagger, crossbow and shield)
--enabled ancient short-/sword
+-enabled new clone of ancient short-/sword
+-enabled new clone of ancient dagger
 -enabled assembly sword and staff
 -enabled queen staff and fixed the name and descr.
--game cheatmenu entry for the console history
 
 **PREVIEWS**
 ![Marcus](https://github.com/user-attachments/assets/cf2d6edf-9287-4f61-9399-08b057f96027)
