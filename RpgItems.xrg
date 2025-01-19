@@ -434,7 +434,7 @@
 	*reloadtime anim
 	*potion_health 10
 	*magazinesize 50
-	*numitems 1
+	*numitems 5
 
 	*attachpoint 1
 	*attachrottrack 19
