@@ -1402,7 +1402,7 @@
 				*item_potion_health_3 l_m7
 				*item_potion_health_4 l_m10
 				*item_potion_health_5 l_m12
-				//*armour_level0 l_m1
+				*armour_level0 l_m1
 				*armour_level1 l_m3
 				*armour_level2 l_m7
 				*armour_level3 l_m12
@@ -1487,7 +1487,7 @@
 				*item_potion_health_3 l_m7
 				*item_potion_health_4 l_m10
 				*item_potion_health_5 l_m12
-				//*armour_level0 l_m3
+				*armour_level0 l_m3
 				*armour_level1 l_m3
 				*armour_level2 l_m7
 				*armour_level3 l_m10
@@ -1526,7 +1526,7 @@
 				*item_potion_health_3 l_m7
 				*item_potion_health_4 l_m10
 				*item_potion_health_5 l_m12
-				//*armour_level0 l_m1
+				*armour_level0 l_m1
 				*armour_level1 l_m3
 				*armour_level2 l_m7
 				*armour_level3 l_m12
@@ -1609,7 +1609,7 @@
 				*item_potion_health_3 l_m7
 				*item_potion_health_4 l_m10
 				*item_potion_health_5 l_m12
-				//*armour_level0 l_m1
+				*armour_level0 l_m1
 				*armour_level1 l_m3
 				*armour_level2 l_m7
 				*armour_level3 l_m12
@@ -1702,7 +1702,7 @@
 				*item_potion_health_3 l_m7
 				*item_potion_health_4 l_m10
 				*item_potion_health_5 l_m12
-				//*armour_level0 l_m1
+				*armour_level0 l_m1
 				*armour_level1 l_m3
 				*armour_level2 l_m7
 				*armour_level3 l_m12
@@ -1739,7 +1739,7 @@
 				*item_potion_health_3 l_m10
 				*item_potion_health_4 l_m10
 				*item_potion_health_5 l_m12
-				//*armour_level0 l_m1
+				*armour_level0 l_m1
 				*armour_level1 l_m3
 				*armour_level2 l_m7
 				*armour_level3 l_m12
@@ -2511,7 +2511,7 @@
 				*item_potion_health_3 d_m7
 				*item_potion_health_4 d_m9
 				*item_potion_health_5 d_m11
-				//*armour_level0 d_m1
+				*armour_level0 d_m1
 				*armour_level1 d_m3
 				*armour_level2 d_m7
 				*armour_level3 d_m11
@@ -2584,7 +2584,7 @@
 				*item_potion_health_3 d_m7
 				*item_potion_health_4 d_m9
 				*item_potion_health_5 d_m11
-				//*armour_level0 d_m1
+				*armour_level0 d_m1
 				*armour_level1 d_m3
 				*armour_level2 d_m7
 				*armour_level3 d_m11
@@ -2621,7 +2621,7 @@
 				*item_potion_health_3 d_m7
 				*item_potion_health_4 d_m9
 				*item_potion_health_5 d_m11
-				//*armour_level0 d_m4
+				*armour_level0 d_m4
 				*armour_level1 d_m4
 				*armour_level2 d_m7
 				*armour_level3 d_m11
@@ -2704,7 +2704,7 @@
 				*item_potion_health_3 d_m7
 				*item_potion_health_4 d_m9
 				*item_potion_health_5 d_m11
-				//*armour_level0 d_m5
+				*armour_level0 d_m5
 				*armour_level1 d_m5
 				*armour_level2 d_m7
 				*armour_level3 d_m11
@@ -2797,7 +2797,7 @@
 				*item_potion_health_3 d_m7
 				*item_potion_health_4 d_m9
 				*item_potion_health_5 d_m11
-				//*armour_level0 d_m7
+				*armour_level0 d_m7
 				*armour_level1 d_m7
 				*armour_level2 d_m7
 				*armour_level3 d_m11				
@@ -2836,7 +2836,7 @@
 				*item_potion_health_3 d_m10
 				*item_potion_health_4 d_m10
 				*item_potion_health_5 d_m11
-				//*armour_level0 d_m10
+				*armour_level0 d_m10
 				*armour_level1 d_m10
 				*armour_level2 d_m10
 				*armour_level3 d_m11
