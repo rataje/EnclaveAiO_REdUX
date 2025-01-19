@@ -386,8 +386,7 @@
 		*itemslot2 0x020,GUI_ICON_BOWS32
 		*itemslot3 0x8120,GUI_ICON_ARROWS32:§LMENU_MISCARROWS
 		*itemslot4 0x009,GUI_ICON_DAGGERS32
-		*itemslot5 0x011,GUI_ICON_STAFFS32
-		*itemslot6 0x106,GUI_ICON_POTIONS32
+		*itemslot5 0x106,GUI_ICON_POTIONS32
 
 		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
 		*subslot1 0x112,GUI_ICON_BOLT_POISON
@@ -1352,6 +1351,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_mordessa
 				*weapon_sword_fire			
 				*weapon_axe_bearded
@@ -1420,6 +1421,7 @@
 				*weapon_dagger_curved 
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*weapon_bow_short
 				*weapon_bow_long
 				*weapon_bow_burst
@@ -1519,6 +1521,7 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -1732,6 +1735,7 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -1796,8 +1800,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire				
@@ -1837,6 +1841,12 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*item_bolt_normal_20
 				*item_bolt_normal_40
 				*item_bolt_normal_60
@@ -1870,8 +1880,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire				
@@ -1911,54 +1921,17 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
-			}
-		}
-		*zale
-		{
-			*available 1
-			*items
-			{
-				*weapon_staff_earthspirit1
-				*item_staff_shield
-				//*armour_level0
-			}
-			*availableitems
-			{
-				*weapon_sword_ancient
-				*weapon_sword_frost2
-				*weapon_sword_assembly
-				*weapon_sword_mordessa
-				*weapon_sword_fire	
-				*weapon_staff_cold
-				*weapon_staff_cold2
-				*weapon_staff_poison
-				*weapon_staff_poison2
-				*weapon_staff_lightning
-				*weapon_staff_lightning2
-				*weapon_staff_darkness
-				*weapon_staff_darkness2
-				*weapon_staff_mind
-				*weapon_staff_mind2
-				*weapon_staff_fire
-				*weapon_staff_fire2
-				// new staff of the earth spirit entries
-				*weapon_staff_earthspirit1
-				*weapon_staff_earthspirit2
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -1994,8 +1967,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire				
@@ -2035,17 +2008,12 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*weapon_bow_short
 				*weapon_bow_long
 				*weapon_bow_burst
 				*weapon_bow_sniper
 				*weapon_bow_magic
-				*weapon_staff_cold2
-				*weapon_staff_poison2
-				*weapon_staff_lightning2
-				*weapon_staff_darkness2
-				*weapon_staff_mind2
-				*weapon_staff_fire2
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -2110,8 +2078,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire				
@@ -2151,6 +2119,7 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*weapon_bow_short
 				*weapon_bow_long
 				*weapon_bow_burst
@@ -2207,7 +2176,7 @@
 				*item_arrow_magic_60
 			}
 		}		
-		*assembly
+		*Assembly
 		{
 			*available 1
 			*items
@@ -2240,13 +2209,58 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
 				*item_potion_health_4
 				*item_potion_health_5
 			}
-		}	
+		}
+		*zale
+		{
+			*available 1
+			*items
+			{
+				*weapon_staff_earthspirit1
+				*item_staff_shield
+				//*armour_level0
+			}
+			*availableitems
+			{
+				*weapon_sword_ancient2
+				*weapon_sword_frost2
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire	
+				*weapon_staff_cold
+				*weapon_staff_cold2
+				*weapon_staff_poison
+				*weapon_staff_poison2
+				*weapon_staff_lightning
+				*weapon_staff_lightning2
+				*weapon_staff_darkness
+				*weapon_staff_darkness2
+				*weapon_staff_mind
+				*weapon_staff_mind2
+				*weapon_staff_fire
+				*weapon_staff_fire2
+				// new staff of the earth spirit entries
+				*weapon_staff_earthspirit1
+				*weapon_staff_earthspirit2
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_dagger_ancient2
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+			}
+		}
 		*Ancestor
 		{
 			*available 1
@@ -2270,8 +2284,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire				
@@ -2311,6 +2325,7 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
@@ -2361,8 +2376,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire
@@ -2371,6 +2386,7 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
