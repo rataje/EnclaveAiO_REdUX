@@ -361,19 +361,6 @@
 		*itemslot0 0x106,GUI_ICON_POTIONS32
 	}	
 	// new characters
-	*Ancestor
-	{
-		*itemslot0 0x000,GUI_ICON_SWORDS32
-		*itemslot1 0x101,GUI_ICON_SHIELDS32
-		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
-		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
-		*itemslot4 0x009,GUI_ICON_DAGGERS32
-		*itemslot5 0x106,GUI_ICON_POTIONS32
-
-		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
-		*subslot1 0x112,GUI_ICON_BOLT_POISON
-		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
-	}
 	*Marcus
 	{
 		*itemslot0 0x000,GUI_ICON_SWORDS32
@@ -447,6 +434,19 @@
 		*itemslot2 0x011,GUI_ICON_STAFFS32
 		*itemslot3 0x009,GUI_ICON_DAGGERS32
 		*itemslot4 0x106,GUI_ICON_POTIONS32
+	}
+	*Ancestor
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot1 0x101,GUI_ICON_SHIELDS32
+		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot4 0x009,GUI_ICON_DAGGERS32
+		*itemslot5 0x106,GUI_ICON_POTIONS32
+
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
 	}
 	*mordessa_good
 	{
@@ -2254,6 +2254,7 @@
 			{
 				*weapon_sword_ancient
 				*item_shield_ancient
+				*item_potion_vine
 				*item_staff_shield
 				//*armour_level0
 			}
@@ -2315,12 +2316,6 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
-				*weapon_staff_cold2
-				*weapon_staff_poison2
-				*weapon_staff_lightning2
-				*weapon_staff_darkness2
-				*weapon_staff_mind2
-				*weapon_staff_fire2
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
