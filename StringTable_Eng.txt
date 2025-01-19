@@ -829,6 +829,9 @@
 	//-- Fix Queen Staff --//
 	*ITEMNAME_WEAPON_STAFF_QUEEN "Queen Staff"
 	*ITEMDESC_WEAPON_STAFF_QUEEN "The Royal Scepter of Celenheim."
+	//-- Fix Potion Vine --//
+	*ITEMNAME_ITEM_POTION_VINE "§p0 Health Vine"
+	*ITEMDESC_ITEM_POTION_VINE "The wine of Celenheim, soothing and healthy."
 
 	// Game - Scoreboard
 	*SCORE_DM			"Deathmatch"
