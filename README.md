@@ -18,17 +18,17 @@ I will try to expand it's features and ideas in future.
 -all characters available from the beginning<br/>
 -all weapons, armors, misc items from beginning<br/>
 -removed mission restrictions from items<br/>
--added playable Marcus The Merchant<br/>
--added playable Captain Lorus<br/>
--added playable Princess Jasindra<br/>
--added playable Queen Ayndirel<br/>
--added playable Assembly Guard<br/>
--added playable Zale The Wizard<br/>
--added playable Ancestor Warrior<br/>
--added playable Skeleton Warrior<br/>
--added playable Scaara Frogman<br/>
--added playable Mordessa<br/>
--added playable Mordessa on Light Side<br/>
+-added playable Marcus The Merchant (Light)<br/>
+-added playable Captain Lorus (Light)<br/>
+-added playable Princess Jasindra (Light)<br/>
+-added playable Queen Ayndirel (Light)<br/>
+-added playable Assembly Guard (Light)<br/>
+-added playable Zale The Wizard (Light)<br/>
+-added playable Ancestor Warrior (Light)<br/>
+-added playable Mordessa (Light)<br/>
+-added playable Skeleton Warrior (Dark)<br/>
+-added playable Scaara Frogman (Dark)<br/>
+-added playable Mordessa (Dark)<br/>
 -character selection menu for first light map<br/>
 -expanded weapon arsenal for Mordessa<br/>
 -new ancient short sword clone for stronger stats<br/>
@@ -44,6 +44,16 @@ I will try to expand it's features and ideas in future.
 -increased health restore value of potion vine <br/>
 -added missing potion vine name and descr.<br/>
 
+**UPCOMING** (not yet added to the repo)<br/>
+-added an deactivated bow again<br/>
+-weapon trident activated (type axe)<br/>
+-weapon polearm activated (type axe)<br/>
+-new ancient hammer clone for stronger stats<br/>
+-activated ancient hammer clone to characters<br/>
+-added playable Senator Alecto (Light)<br/>
+-some additions to weapon availability for characters<br/>
+-some animation assignments fixes for certain characters<br/>
+
 ...more in progress, balancing not final, mean while testing characters on her functions, jump, crouch, speed, height in relation to enemy hit zone, etc.
 
 **PREVIEWS**
@@ -53,6 +63,7 @@ I will try to expand it's features and ideas in future.
 ![Ayrindel](https://github.com/user-attachments/assets/be90bab9-fb93-4caf-ba46-0ee578fe3b34)
 ![Assembly](https://github.com/user-attachments/assets/c171a545-6847-4e1f-ae0b-ffa7f6f0f93d)
 ![Zale](https://github.com/user-attachments/assets/205fab04-88da-45a7-a5af-91ae41b24991)
+![Alecto](https://github.com/user-attachments/assets/e3f70cc0-a8de-428a-8882-1a2676da1ded)
 ![Ancestor](https://github.com/user-attachments/assets/b8698db3-7c74-435b-b547-1870d953edea)
 ![Skeleton](https://github.com/user-attachments/assets/b767b617-baa3-4b28-9f67-9006b89ea276)
 ![Scaara](https://github.com/user-attachments/assets/8b578745-3b7a-42f3-ace4-fafeab37503d)
