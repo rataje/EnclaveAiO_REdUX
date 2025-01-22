@@ -24,6 +24,7 @@ I will try to expand it's features and ideas in future.
 -added playable Queen Ayndirel (Light)<br/>
 -added playable Assembly Guard (Light)<br/>
 -added playable Zale The Wizard (Light)<br/>
+-added playable Senator Alecto (Light)<br/>
 -added playable Ancestor Warrior (Light)<br/>
 -added playable Mordessa (Light)<br/>
 -added playable Skeleton Warrior (Dark)<br/>
@@ -36,21 +37,18 @@ I will try to expand it's features and ideas in future.
 -new ancient sword clone for stronger stats<br/>
 -activated ancient sword clone to characters<br/>
 -new ancient dagger clone for stronger stats<br/>
--activated ancient dagger clone to characters<br/>
+-activated ancient dagger clone to characters<br/
+-new ancient hammer clone for stronger stats<br/>
+-activated ancient hammer clone to characters<br/>>
 -activated assembly sword and staff<br/>
 -activated queen staff<br/>
 -added missing queen staff name and descr.<br/>
+-activated weapon trident (type axe)<br/>
+-activated weapon polearm (type axe)<br/>
+-activated crossbow special<br/>
 -activated vine as potion<br/>
 -increased health restore value of potion vine <br/>
 -added missing potion vine name and descr.<br/>
-
-**UPCOMING** (not yet added to the repo)<br/>
--added an deactivated bow again<br/>
--weapon trident activated (type axe)<br/>
--weapon polearm activated (type axe)<br/>
--new ancient hammer clone for stronger stats<br/>
--activated ancient hammer clone to characters<br/>
--added playable Senator Alecto (Light)<br/>
 -some additions to weapon availability for characters<br/>
 -some animation assignments fixes for certain characters<br/>
 
