@@ -39,7 +39,7 @@ I will try to expand it's features and ideas in future.
 -new ancient dagger clone for stronger stats<br/>
 -activated ancient dagger clone to characters<br/
 -new ancient hammer clone for stronger stats<br/>
--activated ancient hammer clone to characters<br/>>
+-activated ancient hammer clone to characters<br/>
 -activated assembly sword and staff<br/>
 -activated queen staff<br/>
 -added missing queen staff name and descr.<br/>
