@@ -434,6 +434,18 @@
 		*itemslot3 0x009,GUI_ICON_DAGGERS32
 		*itemslot4 0x106,GUI_ICON_POTIONS32
 	}
+	*alecto
+	{
+		*itemslot0 0x000,GUI_ICON_SWORDS32
+		*itemslot2 0x021,GUI_ICON_CROSSBOWS32
+		*itemslot3 0x8110,GUI_ICON_ARROWS32:§LMENU_MISCBOLTS
+		*itemslot4 0x009,GUI_ICON_DAGGERS32
+		*itemslot5 0x106,GUI_ICON_POTIONS32
+
+		*subslot0 0x110,GUI_ICON_BOLT_NORMAL
+		*subslot1 0x112,GUI_ICON_BOLT_POISON
+		*subslot2 0x111,GUI_ICON_BOLT_MAGIC
+	}
 	*Ancestor
 	{
 		*itemslot0 0x000,GUI_ICON_SWORDS32
@@ -707,7 +719,7 @@
 		*cutscene_select l_sb1
 		*noequip 1
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Iellon_Dungeon
 			*award special:unlockdarkcampaign,challenge:l_m2,gold:75
@@ -722,7 +734,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_cs01
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Iellon_Outpost_L
 			*award challenge:l_m3,gold:75
@@ -736,7 +748,7 @@
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Celadia_Village_L
 			*award challenge:l_m4,gold:150
@@ -751,7 +763,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_sb2
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Deserted_Temple
 			*award challenge:l_m5,gold:200
@@ -766,7 +778,7 @@
 		*music_battle dark_02_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Divided_City
 			*award challenge:l_m6,gold:250
@@ -780,7 +792,7 @@
 		*music_battle dark_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Outland_Wastes
 			*award challenge:l_m7,gold:300
@@ -794,7 +806,7 @@
 		*music_battle dark_03_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Ark_Amar
 			*award challenge:l_m8,gold:350
@@ -810,7 +822,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_sb3
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Ancestors
 			*award challenge:l_m9,gold:400
@@ -824,7 +836,7 @@
 		*music_battle light_01_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Sanctuary
 			*award challenge:l_m10,gold:450
@@ -838,7 +850,7 @@
 		*music_battle dark_04_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Underworld_I
 			*award challenge:l_m11,gold:500
@@ -853,7 +865,7 @@
 		*music_battle dark_04_b
 		*picmips 0,0,0,0,0,0,0,0
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Underworld_II
 			*award challenge:l_m12,gold:550
@@ -868,7 +880,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*cutscene_win l_sb4,l_cs02
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Kam-Zara
 			*award challenge:l_m13,gold:600
@@ -883,7 +895,7 @@
 		*picmips 0,0,0,0,0,0,0,0
 		*backplane 12000
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Ark_Moor_L
 			*award challenge:l_m14,gold:650
@@ -899,7 +911,7 @@
 		*backplane 12000
 		*cutscene_win l_sb5,l_endcredits
 
-		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+ancestor+zale+mordessa_good
+		*character paladin+archer+druid+boarrider+engineer+wizard+9320+golem+marcus+lorus+jasindra+ayndirel+assembly+zale+alecto+ancestor+mordessa_good
 		{
 			*map Vatar
 		}
@@ -1779,7 +1791,7 @@
 			}
 		}	
 		// new character zale - available items
-		*Marcus
+		*marcus
 		{
 			*available 1
 			*items
@@ -1815,6 +1827,8 @@
 				*weapon_axe_great
 				*weapon_axe_shatter
 				*weapon_axe_magic
+				*weapon_axe_trident
+				*weapon_axe_polearm
 				*weapon_hammer_spiked
 				*weapon_hammer_light
 				*weapon_hammer_morningstar
@@ -1825,6 +1839,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_ancient2
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
@@ -1841,12 +1856,6 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
-				*weapon_dagger_short
-				*weapon_dagger_long
-				*weapon_dagger_curved
-				*weapon_dagger_sacrifice
-				*weapon_dagger_poison
-				*weapon_dagger_ancient2
 				*item_bolt_normal_20
 				*item_bolt_normal_40
 				*item_bolt_normal_60
@@ -1859,7 +1868,7 @@
 				*item_potion_health_5
 			}
 		}
-		*Lorus
+		*lorus
 		{
 			*available 1
 			*items
@@ -1895,6 +1904,8 @@
 				*weapon_axe_great
 				*weapon_axe_shatter
 				*weapon_axe_magic
+				*weapon_axe_trident
+				*weapon_axe_polearm
 				*weapon_hammer_spiked
 				*weapon_hammer_light
 				*weapon_hammer_morningstar
@@ -1905,6 +1916,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_ancient2
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
@@ -1921,12 +1933,6 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
-				*weapon_dagger_short
-				*weapon_dagger_long
-				*weapon_dagger_curved
-				*weapon_dagger_sacrifice
-				*weapon_dagger_poison
-				*weapon_dagger_ancient2
 				*item_bolt_normal_20
 				*item_bolt_normal_40
 				*item_bolt_normal_60
@@ -1939,7 +1945,7 @@
 				*item_potion_health_5
 			}
 		}
-		*Jasindra
+		*jasindra
 		{
 			*available 1
 			*items
@@ -1982,7 +1988,9 @@
 				*weapon_axe_great
 				*weapon_axe_shatter
 				*weapon_axe_magic
-				*weapon_hammer_spiked 
+				*weapon_axe_trident
+				*weapon_axe_polearm
+				*weapon_hammer_spiked
 				*weapon_hammer_light
 				*weapon_hammer_morningstar
 				*weapon_hammer_heavyclub
@@ -1992,6 +2000,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_ancient2
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2057,7 +2066,7 @@
 				*item_arrow_magic_60
 			}
 		}
-		*Ayndirel
+		*ayndirel
 		{
 			*available 1
 			*items
@@ -2093,7 +2102,9 @@
 				*weapon_axe_great
 				*weapon_axe_shatter
 				*weapon_axe_magic
-				*weapon_hammer_spiked 
+				*weapon_axe_trident
+				*weapon_axe_polearm
+				*weapon_hammer_spiked
 				*weapon_hammer_light
 				*weapon_hammer_morningstar
 				*weapon_hammer_heavyclub
@@ -2103,6 +2114,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_ancient2
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2175,8 +2187,8 @@
 				*item_arrow_magic_30
 				*item_arrow_magic_60
 			}
-		}		
-		*Assembly
+		}
+		*assembly
 		{
 			*available 1
 			*items
@@ -2188,6 +2200,9 @@
 			*availableitems
 			{
 				*weapon_sword_assembly
+				*weapon_axe_trident
+				*weapon_axe_polearm
+				*weapon_hammer_ancient2
 				*weapon_staff_assembly
 				*weapon_staff_cold
 				*weapon_staff_cold2
@@ -2228,7 +2243,6 @@
 			}
 			*availableitems
 			{
-				*weapon_sword_ancient2
 				*weapon_sword_frost2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
@@ -2261,15 +2275,14 @@
 				*item_potion_health_5
 			}
 		}
-		*Ancestor
+		*alecto
 		{
 			*available 1
 			*items
 			{
-				*weapon_sword_ancient
-				*item_shield_ancient
-				*item_potion_vine
+				*weapon_dagger_ancient2
 				*item_staff_shield
+				*item_potion_vine
 				//*armour_level0
 			}
 			*availableitems
@@ -2299,6 +2312,8 @@
 				*weapon_axe_great
 				*weapon_axe_shatter
 				*weapon_axe_magic
+				*weapon_axe_trident
+				*weapon_axe_polearm
 				*weapon_hammer_spiked 
 				*weapon_hammer_light
 				*weapon_hammer_morningstar
@@ -2309,6 +2324,8 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_ancient2
+				*weapon_hammer_shadowstar
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2353,7 +2370,104 @@
 				*item_bolt_magic_120
 				*item_bolt_magic_240
 			}
-		}	
+		}
+		*ancestor
+		{
+			*available 1
+			*items
+			{
+				*weapon_sword_ancient2
+				*item_shield_ancient
+				*item_staff_shield
+				*item_potion_vine
+				//*armour_level0
+			}
+			*availableitems
+			{	
+				*weapon_sword_lightshort
+				*weapon_sword_broad
+				*weapon_sword_long
+				*weapon_sword_scimitar
+				*weapon_sword_dwarven
+				*weapon_sword_sabre
+				*weapon_sword_falchion
+				*weapon_sword_bastard
+				*weapon_sword_warrior
+				*weapon_sword_frost2
+				*weapon_sword_shortancient22
+				*weapon_sword_ancient22
+				*weapon_sword_assembly
+				*weapon_sword_mordessa
+				*weapon_sword_fire				
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_axe_trident
+				*weapon_axe_polearm
+				*weapon_hammer_spiked 
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_hammer_ancient2
+				*weapon_hammer_shadowstar
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*weapon_dagger_short
+				*weapon_dagger_long
+				*weapon_dagger_curved
+				*weapon_dagger_sacrifice
+				*weapon_dagger_poison
+				*weapon_dagger_ancient2
+				*weapon_crossbow_light
+				*weapon_crossbow_dwarven
+				*weapon_crossbow_heavy
+				*weapon_crossbow_repeating
+				*weapon_crossbow_magic
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
+				*item_potion_vine
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
+			}
+		}
 		*mordessa_good
 		{
 			*available 1
@@ -2381,12 +2495,35 @@
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire
+				*weapon_axe_bearded
+				*weapon_axe_kama
+				*weapon_axe_short
+				*weapon_axe_pike
+				*weapon_axe_brute
+				*weapon_axe_battle
+				*weapon_axe_war
+				*weapon_axe_great
+				*weapon_axe_shatter
+				*weapon_axe_magic
+				*weapon_axe_trident
+				*weapon_axe_polearm
+				*weapon_hammer_spiked 
+				*weapon_hammer_light
+				*weapon_hammer_morningstar
+				*weapon_hammer_heavyclub
+				*weapon_hammer_mace
+				*weapon_hammer_maul
+				*weapon_hammer_battle
+				*weapon_hammer_chaos
+				*weapon_hammer_heavymorningstar
+				*weapon_hammer_magic
+				*weapon_hammer_ancient2
+				*weapon_hammer_shadowstar
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
-				*weapon_dagger_ancient2
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
@@ -2399,7 +2536,6 @@
 				*weapon_staff_mind2
 				*weapon_staff_fire2
 				*weapon_staff_mordessa
-				*item_shield_no
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2427,7 +2563,7 @@
 				*item_potion_health_4
 				*item_potion_health_5
 			}
-		}				    
+		}
 	}
 }
 
@@ -2545,6 +2681,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_morningstar
 				*weapon_axe_bearded
 				*weapon_axe_kama
 				*weapon_axe_short
@@ -2665,6 +2802,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_morningstar
 				*weapon_sword_short
 				*weapon_sword_broad
 				*weapon_sword_long
@@ -2750,6 +2888,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_morningstar
 				*weapon_axe_bearded
 				*weapon_axe_kama
 				*weapon_axe_short
@@ -2929,6 +3068,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_morningstar
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
@@ -3020,6 +3160,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_morningstar
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
@@ -3110,6 +3251,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
+				*weapon_hammer_morningstar
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
