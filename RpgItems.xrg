@@ -429,12 +429,12 @@
 {
 	*rpgclass potion
 	*itemtype 0x106
-	*price 50000
+	*price 0
 
 	*reloadtime anim
-	*potion_health 10
-	*magazinesize 50
-	*numitems 5
+	*potion_health 200
+	*magazinesize 1
+	*numitems 1
 
 	*attachpoint 1
 	*attachrottrack 19
@@ -445,6 +445,8 @@
 	*anim_equip animlist:229
 	*sound_pickup bottle01
 	*sound_cast bottle02
+	
+	*ai_type POTION_HEALING
 }
 
 *item_coin
