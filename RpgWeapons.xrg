@@ -3901,3 +3901,21 @@
 	*spawn_hit hiteffect_shortdagger
 	*spawn_special hiteffect_shortdagger_special
 }
+
+*weapon_hammer_ancient2
+{
+	*classname template_weapon_hammer
+	*price 0
+	*damage 100
+	*impactforce 17
+
+	*model "weapons\\HellPike"
+	*iconsurface gui_icon_hellpike
+	*attachmodel "DoubleTrail:Trail_Sword02,2,3"
+	*attachangles 0,0.24,0.92
+
+	//*melee_combomultiplier0 1.0
+	//*melee_combomultiplier1 1.25
+	//*melee_combomultiplier2 1.5
+	//*melee_combotimegap 0.8
+}
