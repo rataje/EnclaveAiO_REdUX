@@ -1365,8 +1365,9 @@
 				*weapon_sword_frost2
 				*weapon_sword_shortancient2
 				*weapon_sword_ancient2
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
-				*weapon_sword_fire			
+				*weapon_sword_fire
 				*weapon_axe_bearded
 				*weapon_axe_kama
 				*weapon_axe_short
@@ -1392,6 +1393,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -1399,20 +1401,30 @@
 				*item_shield_round
 				*item_shield_kite
 				*item_shield_blade
-				*item_shield_chao
+				*item_shield_chaos
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
 				*item_potion_health_4
 				*item_potion_health_5
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*armour_level0
 				*armour_level1
 				*armour_level2
@@ -1421,19 +1433,27 @@
 		}
 		*archer
 		{
+			*available 1
 			*items
 			{
+				*weapon_bow_long
+				*weapon_crossbow_dwarven
+				*weapon_dagger_short
+				*item_bolt_normal_40
+				*item_arrow_burst_40
+				*item_arrow_fire_10
+				*item_arrow_grenade_5
+				*item_arrow_sniper_10
 				*item_staff_shield
-				////*armour_level0
+				//*armour_level0
 			}
 			*availableitems
 			{
 				*weapon_dagger_short
 				*weapon_dagger_long
-				*weapon_dagger_curved 
+				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
-				*weapon_dagger_ancient2
 				*weapon_bow_short
 				*weapon_bow_long
 				*weapon_bow_burst
@@ -1444,6 +1464,12 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 				*item_bolt_normal_20
 				*item_bolt_normal_40
 				*item_bolt_normal_60
@@ -1494,11 +1520,6 @@
 				*item_arrow_magic_15
 				*item_arrow_magic_30
 				*item_arrow_magic_60
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
 				*armour_level0
 				*armour_level1
 				*armour_level2
@@ -1507,9 +1528,14 @@
 		}
 		*druid
 		{
+			*available 1
 			*items
 			{
 				*item_staff_shield
+				*weapon_staff_spirit
+				*weapon_staff_cold2
+				*weapon_dagger_short
+				*item_bolt_normal_40
 				//*armour_level0
 			}
 			*availableitems
@@ -1526,14 +1552,13 @@
 				*weapon_staff_darkness2
 				*weapon_staff_mind
 				*weapon_staff_mind2
-				*weapon_staff_fire
+				*weapon_staff_fire			
 				*weapon_staff_fire2
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
-				*weapon_dagger_ancient2
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -1543,12 +1568,17 @@
 				*armour_level1
 				*armour_level2
 				*armour_level3
-			}	
+			}
 		}
 		*boarrider
 		{
+			*available 1
 			*items
 			{
+				*weapon_axe_short
+				*weapon_crossbow_light
+				*item_bolt_normal_40
+				*item_shield_targa
 				*item_staff_shield
 				//*armour_level0
 			}
@@ -1584,13 +1614,17 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
-				*weapon_sword_fire			
+				*weapon_sword_fire
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -1602,6 +1636,11 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 				*item_bolt_normal_20
 				*item_bolt_normal_40
 				*item_bolt_normal_60
@@ -1617,11 +1656,6 @@
 				*item_bolt_magic_60
 				*item_bolt_magic_120
 				*item_bolt_magic_240
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
 				*armour_level0
 				*armour_level1
 				*armour_level2
@@ -1630,13 +1664,20 @@
 		}
 		*engineer
 		{
+			*available 1
 			*items
 			{
+				*weapon_sword_long
+				*weapon_crossbow_light
+				*weapon_bomb_8
+				*weapon_firebottle_8
+				*item_shield_buckler
+				*item_bolt_normal_40
 				*item_staff_shield
 				//*armour_level0
 			}
 			*availableitems
-			{
+			{				
 				*weapon_hammer_spiked
 				*weapon_hammer_light
 				*weapon_hammer_morningstar
@@ -1667,13 +1708,17 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
-				*weapon_sword_fire
+				*weapon_sword_fire				
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -1685,11 +1730,6 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
 				*weapon_bomb_2
 				*weapon_bomb_4
 				*weapon_bomb_6
@@ -1715,17 +1755,36 @@
 				*item_potion_health_3
 				*item_potion_health_4
 				*item_potion_health_5
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*armour_level0
 				*armour_level1
 				*armour_level2
 				*armour_level3
 			}
-		}
+		}		
 		*wizard
 		{
+			*available 1
 			*items
 			{
 				*item_staff_shield
+				*weapon_staff_lightning
+				*weapon_staff_mind2
+				*weapon_dagger_short				
 				//*armour_level0
 			}
 			*availableitems
@@ -1747,7 +1806,6 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
-				*weapon_dagger_ancient2
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -1761,6 +1819,7 @@
 		}
 		*9320
 		{
+			*available 1
 			*items
 			{
 				*weapon_rocketlauncher
@@ -1775,8 +1834,9 @@
 				*item_potion_health_5
 			}
 		}
-		*Golem
+		*golem
 		{
+			*available 1
 			*items
 			{
 				*weapon_hammer_golem2
@@ -1845,6 +1905,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -1861,6 +1922,16 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -1922,6 +1993,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -1938,6 +2010,16 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -2348,6 +2430,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -2445,6 +2528,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -2524,11 +2608,13 @@
 				*weapon_dagger_curved
 				*weapon_dagger_sacrifice
 				*weapon_dagger_poison
+				*weapon_dagger_ancient2
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*weapon_staff_cold2
 				*weapon_staff_poison2
 				*weapon_staff_lightning2
@@ -2557,6 +2643,16 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -2571,12 +2667,12 @@
 {
 	*campaign Dark
 	{
-		*d_m0 //shows campaign map, no icons
+		*d_m0
 		*d_m1
 	}
 	*characters
 	{
-		*assassin
+		*Assassin
 		{
 			*available 1
 			*items
@@ -2601,6 +2697,23 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 				*item_bolt_normal_20
 				*item_bolt_normal_40
 				*item_bolt_normal_60
@@ -2651,21 +2764,21 @@
 				*item_arrow_magic_15
 				*item_arrow_magic_30
 				*item_arrow_magic_60
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
 				*armour_level0
 				*armour_level1
 				*armour_level2
 				*armour_level3
 			}
 		}
-		*berserker
+		*Berserker
 		{
+			*available 1
 			*items
 			{
+				*weapon_hammer_heavyclub
+				*weapon_crossbow_dwarven
+				*item_shield_spiked
+				*item_bolt_normal_40
 				*item_staff_shield
 				//*armour_level0
 			}
@@ -2681,7 +2794,6 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
-				*weapon_hammer_morningstar
 				*weapon_axe_bearded
 				*weapon_axe_kama
 				*weapon_axe_short
@@ -2690,7 +2802,6 @@
 				*weapon_axe_battle
 				*weapon_axe_war
 				*weapon_axe_great
-				*weapon_axe_shatter
 				*weapon_axe_magic
 				*weapon_sword_short
 				*weapon_sword_broad
@@ -2702,6 +2813,9 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire
 				*weapon_crossbow_light
@@ -2709,6 +2823,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2720,27 +2835,41 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
 				*item_potion_health_4
 				*item_potion_health_5
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*armour_level0
-				*armour_level1 
+				*armour_level1
 				*armour_level2
 				*armour_level3
 			}
 		}
 		*sorceress
 		{
+			*available 1
 			*items
 			{
 				*item_staff_shield
+				*weapon_staff_lightning
+				*weapon_staff_poison2
+				*weapon_dagger_short				
 				//*armour_level0
 			}
 			*availableitems
@@ -2748,7 +2877,7 @@
 				*weapon_staff_cold
 				*weapon_staff_cold2
 				*weapon_staff_poison
-				*weapon_staff_poison2
+				*weapon_staff_poison2	
 				*weapon_staff_lightning
 				*weapon_staff_lightning2
 				*weapon_staff_darkness
@@ -2775,8 +2904,13 @@
 		}
 		*wolfrider
 		{
+			*available 1
 			*items
 			{
+				*weapon_axe_short
+				*weapon_crossbow_dwarven
+				*item_bolt_normal_40
+				*item_shield_targa
 				*item_staff_shield
 				//*armour_level0
 			}
@@ -2802,7 +2936,6 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
-				*weapon_hammer_morningstar
 				*weapon_sword_short
 				*weapon_sword_broad
 				*weapon_sword_long
@@ -2813,13 +2946,17 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
-				*weapon_sword_fire			
+				*weapon_sword_fire
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2831,6 +2968,11 @@
 				*item_shield_thorn
 				*item_shield_ancient
 				*item_shield_magic
+				*item_potion_health_1
+				*item_potion_health_2
+				*item_potion_health_3
+				*item_potion_health_4
+				*item_potion_health_5
 				*item_bolt_normal_20
 				*item_bolt_normal_40
 				*item_bolt_normal_60
@@ -2846,11 +2988,6 @@
 				*item_bolt_magic_60
 				*item_bolt_magic_120
 				*item_bolt_magic_240
-				*item_potion_health_1
-				*item_potion_health_2
-				*item_potion_health_3
-				*item_potion_health_4
-				*item_potion_health_5
 				*armour_level0
 				*armour_level1
 				*armour_level2
@@ -2859,8 +2996,15 @@
 		}
 		*bombardier
 		{
+			*available 1
 			*items
 			{
+				*weapon_hammer_morningstar
+				*weapon_crossbow_light
+				*item_bolt_normal_40
+				*weapon_bomb_8
+				*weapon_firebottle_8
+				*item_shield_spiked
 				*item_staff_shield
 				//*armour_level0
 			}
@@ -2876,8 +3020,11 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
+				*weapon_sword_assembly
 				*weapon_sword_mordessa
-				*weapon_sword_fire			
+				*weapon_sword_fire	
 				*weapon_hammer_spiked
 				*weapon_hammer_war
 				*weapon_hammer_morningstar
@@ -2887,8 +3034,7 @@
 				*weapon_hammer_battle
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
-				*weapon_hammer_magic
-				*weapon_hammer_morningstar
+				*weapon_hammer_magic				
 				*weapon_axe_bearded
 				*weapon_axe_kama
 				*weapon_axe_short
@@ -2898,12 +3044,13 @@
 				*weapon_axe_war
 				*weapon_axe_great
 				*weapon_axe_shatter
-				*weapon_axe_magic
+				*weapon_axe_magic				
 				*weapon_crossbow_light
 				*weapon_crossbow_dwarven
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*item_shield_targa
 				*item_shield_buckler
 				*item_shield_spiked
@@ -2935,27 +3082,40 @@
 				*weapon_hefirebottle_6
 				*weapon_hefirebottle_8
 				*weapon_hefirebottle_16
-				*item_bolt_normal_20
-				*item_bolt_normal_40
-				*item_bolt_normal_60
-				*item_bolt_normal_120
-				*item_bolt_normal_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
 				*item_potion_health_4
 				*item_potion_health_5
+				*item_bolt_normal_20
+				*item_bolt_normal_40
+				*item_bolt_normal_60
+				*item_bolt_normal_120
+				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*armour_level0
 				*armour_level1
 				*armour_level2
-				*armour_level3				
+				*armour_level3
 			}
 		}
 		*lich
 		{
+			*available 1
 			*items
 			{
 				*item_staff_shield
+				*weapon_staff_doom
+				*weapon_staff_darkness2
 				//*armour_level0
 			}
 			*availableitems
@@ -2992,6 +3152,7 @@
 		}
 		*Feticia
 		{
+			*available 1
 			*items
 			{
 				*weapon_rocketlauncher
@@ -3008,6 +3169,7 @@
 		}
 		*Stonegnome
 		{
+			*available 1
 			*items
 			{
 				*weapon_unarmed_stonegnome2
@@ -3043,8 +3205,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire
@@ -3068,7 +3230,6 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
-				*weapon_hammer_morningstar
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
@@ -3079,6 +3240,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*weapon_staff_cold2
 				*weapon_staff_poison2
 				*weapon_staff_lightning2
@@ -3107,6 +3269,16 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -3135,8 +3307,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire
@@ -3160,7 +3332,6 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
-				*weapon_hammer_morningstar
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
@@ -3171,6 +3342,7 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
 				*weapon_staff_cold2
 				*weapon_staff_poison2
 				*weapon_staff_lightning2
@@ -3199,6 +3371,16 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -3226,8 +3408,8 @@
 				*weapon_sword_bastard
 				*weapon_sword_warrior
 				*weapon_sword_frost2
-				*weapon_sword_shortancient
-				*weapon_sword_ancient
+				*weapon_sword_shortancient2
+				*weapon_sword_ancient2
 				*weapon_sword_assembly
 				*weapon_sword_mordessa
 				*weapon_sword_fire
@@ -3241,6 +3423,7 @@
 				*weapon_axe_great
 				*weapon_axe_shatter
 				*weapon_axe_magic
+				*weapon_axe_trident
 				*weapon_hammer_spiked
 				*weapon_hammer_war
 				*weapon_hammer_morningstar
@@ -3251,7 +3434,7 @@
 				*weapon_hammer_chaos
 				*weapon_hammer_heavymorningstar
 				*weapon_hammer_magic
-				*weapon_hammer_morningstar
+				*weapon_hammer_shadowstar
 				*weapon_dagger_short
 				*weapon_dagger_long
 				*weapon_dagger_curved
@@ -3262,6 +3445,25 @@
 				*weapon_crossbow_heavy
 				*weapon_crossbow_repeating
 				*weapon_crossbow_magic
+				*weapon_crossbow_special
+				*weapon_staff_cold2
+				*weapon_staff_poison2
+				*weapon_staff_lightning2
+				*weapon_staff_darkness2
+				*weapon_staff_mind2
+				*weapon_staff_fire2
+				*weapon_staff_mordessa
+				*item_shield_targa
+				*item_shield_buckler
+				*item_shield_spiked
+				*item_shield_brute
+				*item_shield_round
+				*item_shield_kite
+				*item_shield_blade
+				*item_shield_chaos
+				*item_shield_thorn
+				*item_shield_ancient
+				*item_shield_magic
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
@@ -3272,6 +3474,16 @@
 				*item_bolt_normal_60
 				*item_bolt_normal_120
 				*item_bolt_normal_240
+				*item_bolt_poison_20
+				*item_bolt_poison_40
+				*item_bolt_poison_60
+				*item_bolt_poison_120
+				*item_bolt_poison_240
+				*item_bolt_magic_20
+				*item_bolt_magic_40
+				*item_bolt_magic_60
+				*item_bolt_magic_120
+				*item_bolt_magic_240
 				*item_potion_health_1
 				*item_potion_health_2
 				*item_potion_health_3
